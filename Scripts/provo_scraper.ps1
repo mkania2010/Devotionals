@@ -54,7 +54,7 @@ foreach ($speakerLink in $speakerLinks) {
 		# Start by assigning information that every devo SHOULD have
 		$tempDevotional.DevoName = ($titleURI_Matches[$count].Groups.Where{$_.Name -like 'title'}).Value
 		$tempDevotional.Author = ($authorName_Matches[0].Groups.Where{$_.Name -like 'authorName'}).Value
-		$tempDevotional.Date = ($date_Matches[$count].Groups.Where{$_.Name -like 'date'}).Value
+		$tempDevotional.Date = ($date_Matches[$count].Groups.Where{$_.Name -like 'date'}).Value`
 		$tempDevotional.URI = $titleURI
 
 		# Process things that the devo may NOT have
