@@ -19,7 +19,6 @@ $date_Pattern = 'card__speech-date">(?<date>.*)</span>'
 $authorName_Pattern = 'speaker-listing__name">(?<authorName>.*)</'
 $authorTitle_Pattern = 'speaker-listing__position">(?<authorTitle>.*)</'
 $mp3URI_Pattern = 'reduced download-links__option--(?<mp3Available>.*)"[\n\t]*(href=")?((?<mp3URI>.*).mp3" download)?[\n\t>]*AUDIO'
-# $mp3Available_Pattern = 'download-links__option--(?<mp3Available>.*)"[\t\n]*.*[\t\n]*AUDIO'
 $videoURI_Pattern = 'href="(?<videoURI>.*)\?M=V"'
 
 
@@ -33,10 +32,7 @@ foreach ($speakerLink in $speakerLinks) {
 	# Get the webpage
 	$webpage = Invoke-RestMethod $speakerLink
 
-	# Testing webpage
-	# $webpage = Invoke-RestMethod 'https://speeches.byu.edu/speakers/david-a-bednar/'
-
-	# Get Regex matches
+	# Get all regex matches from webpage
 	$titleURI_Matches = ([regex]$title_URI_Pattern).Matches($webpage)
 	$date_Matches = ([regex]$date_Pattern).Matches($webpage)
 	$authorName_Matches = ([regex]$authorName_Pattern).Matches($webpage)
@@ -48,6 +44,8 @@ foreach ($speakerLink in $speakerLinks) {
 	$tempDevoArray = @()
 	$count = 0
 
+	# Every devo will have it's own URI, so loop through each URI on the speaker's webpage
+	# $___Matches.Groups.Where{}.Value is needed to grab the useful information from the Matches table
 	foreach ( $titleURI in ($titleURI_Matches.Groups.Where{$_.Name -like 'uri'}).Value ) {
 		$tempDevotional = [Devotional]::new()
 
@@ -59,14 +57,14 @@ foreach ($speakerLink in $speakerLinks) {
 
 		# Process things that the devo may NOT have
 
-		# Author Title
+		# Author Title - If the title is not blank, then assign it
 		if (($authorTitle_Matches[0].Groups.Where{$_.Name -like 'authorTitle'}).Value -ne '') {
 			$tempDevotional.AuthorTitle = ($authorTitle_Matches[0].Groups.Where{$_.Name -like 'authorTitle'}).Value
 		} else {
 			$tempDevotional.AuthorTitle = ''
 		}
 
-		# MP3 URI
+		# MP3 URI - if the MP3 is not unavailable, set the URI - the '.mp3' extension must be added back as well
 		if (($mp3URI_Matches[$count].Groups.Where{$_.Name -like 'mp3Available'}).Value -like 'unavailable') {
 			$tempDevotional.MP3_URI = ''
 		} else {
@@ -76,6 +74,7 @@ foreach ($speakerLink in $speakerLinks) {
 		# Video URI
 		# set the value to null, then loop through available values to check for a match
 		# if it matches, add '/?M=V' to the end, so that clicking the link plays the video
+		# The regex match removes the last part of the URI, so it needs to be added back
 		$tempDevotional.Video_URI = ''
 		foreach ($videoURI in ($videoURI_Matches.Groups.Where{$_.Name -like 'videoURI'}).Value) {
 			if ($videoURI -eq $titleURI) {
@@ -83,14 +82,12 @@ foreach ($speakerLink in $speakerLinks) {
 			}
 		}
 
-
 		$tempDevoArray += $tempDevotional
 		$count++
 	}
 
 	# Add the Temp Devotional to the main array
 	$devotionalsArray += $tempDevoArray
-
 }
 
 # Export the main array to JSON, then write it to file
