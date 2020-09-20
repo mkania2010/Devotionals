@@ -7,6 +7,7 @@ class Devotional {
 	[uri]$URI
 	[uri]$MP3_URI
 	[uri]$Video_URI
+	[string]$Campus
 }
 
 # Declare variables
@@ -54,6 +55,7 @@ foreach ($speakerLink in $speakerLinks) {
 		$tempDevotional.Author = ($authorName_Matches[0].Groups.Where{$_.Name -like 'authorName'}).Value
 		$tempDevotional.Date = ($date_Matches[$count].Groups.Where{$_.Name -like 'date'}).Value
 		$tempDevotional.URI = $titleURI
+		$tempDevotional.Campus = 'Provo'
 
 		# Process things that the devo may NOT have
 
