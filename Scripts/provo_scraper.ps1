@@ -4,15 +4,16 @@ class Devotional {
 	[string]$Author
 	[string]$AuthorTitle
 	[datetime]$Date
+	[string]$Campus
 	[uri]$URI
 	[uri]$MP3_URI
 	[uri]$Video_URI
-	[string]$Campus
 }
 
 # Declare variables
 $speakerLinks = @()
 $devotionalsArray = @()
+$exportPath = './JSON/provo.json'
 
 # variables for the Regex Patterns
 $title_URI_Pattern = 'card__header--reduced">[\n\t]*<a href="(?<uri>.*)">(?<title>.*)<\/a>'
@@ -94,4 +95,4 @@ foreach ($speakerLink in $speakerLinks) {
 
 # Export the main array to JSON, then write it to file
 $exportJson = ConvertTo-Json -InputObject $devotionalsArray
-Set-Content -Path '/Users/bob/Documents/Github/Devotionals/JSON/provo.json' -Value $exportJson
+Set-Content -Path $exportPath -Value $exportJson
