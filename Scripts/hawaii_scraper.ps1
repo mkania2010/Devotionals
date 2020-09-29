@@ -33,10 +33,9 @@ $linksArray = $devoURL, $commencementURL, $mcKayLectureURL, $foundationalURL, $J
 
 
 
-
-
 foreach ($link in $linksArray) {
 
+	# Reset page number and URL for each URL in the array
 	$pageNumber = 1
 	
 	if ($link -like '*-page=') {
@@ -48,8 +47,6 @@ foreach ($link in $linksArray) {
 	$webpage = Invoke-RestMethod -Uri $currentURL
 
 	do {
-		Write-Host "Processing $currentURL"
-
 		# Get matches from webpage - JS Lectures have their own regex patterns
 		if ($link -like '*joseph-smith-lectures') {
 			$titleURI_Matches = ([regex]$JS_title_URI_Pattern).Matches($webpage)
@@ -64,7 +61,7 @@ foreach ($link in $linksArray) {
 		$tempDevoArray = @()
 		$count = 0
 
-		# For each matched URL, execute the loop
+		# For each matched URL, assign the gathered informatino
 		foreach ($titleURI in ($titleURI_Matches.Groups.Where{$_.Name -like 'uri'}).Value ) {
 			$tempDevotional = [Devotional]::new()
 
@@ -99,5 +96,6 @@ foreach ($link in $linksArray) {
 	} while ($currentWebpage -like '*pagination-svg next*')
 }
 
+# Export to the JSON document
 $exportJson = ConvertTo-Json -InputObject $devotionalsArray
 Set-Content -Path $exportPath -Value $exportJson
