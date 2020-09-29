@@ -490,6 +490,16 @@
     "Video_URI": "https://video.byui.edu/media/0_l0x9ji2v"
   },
   {
+    "DevoName": "Developing Life-Long, Committed Disciples of Christ",
+    "Author": "Elder Paul V. Johnson",
+    "AuthorTitle": "Commissioner of Church Education",
+    "Date": "2020-09-08T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/speeches/all-employee-meeting",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "We Are All Enlisted",
     "Author": "President Henry J. Eyring",
     "AuthorTitle": "BYU-Idaho President",
@@ -502,12 +512,22 @@
   {
     "DevoName": "Hello Again",
     "Author": "Sister Kelly  Eyring",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2020-09-15T00:00:00",
     "Campus": "Idaho",
     "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-15_SisEyring_DV.mp3",
     "Video_URI": "https://video.byui.edu/media/Kelly+Eyring-+%22Hello+Again%22/1_0elbta4h/147052562"
+  },
+  {
+    "DevoName": "Covenants – Accepting God’s Offered Blessings",
+    "Author": "Elder Randy D. and Sister Andrea  Funk",
+    "AuthorTitle": "General Authority Seventy",
+    "Date": "2020-09-22T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/elder-randy-d-funk",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-22_Devo_Funk_ENG.mp3",
+    "Video_URI": "https://video.byui.edu/media/Elder+Randy+D.+Funk+and+Sister+Andrea+Funk/1_d5ftuz9r"
   },
   {
     "DevoName": "Writing in the Stars",
@@ -1012,7 +1032,7 @@
   {
     "DevoName": "Envision Success",
     "Author": "Sister Kelly  Eyring",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2019-09-24T00:00:00",
     "Campus": "Idaho",
     "URI": "http://www.byui.edu/devotionals/sister-kelly-eyring-fall-2019",
@@ -1865,7 +1885,7 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2018-12-19T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/Elder_D_Todd_Christofferson_Convocation_Fall_2018.mp3",
     "Video_URI": "https://video.byui.edu/media/Elder+D.+Todd+Christofferson+-+Home+%26+Family+Convocation+Remarks/1_qg7hutle/11602882"
   },
@@ -2822,7 +2842,7 @@
   {
     "DevoName": "Clearing the Path with Love",
     "Author": "Sister Christine C. Gilbert",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2016-04-19T00:00:00",
     "Campus": "Idaho",
     "URI": "http://www.byui.edu/devotionals/sister-gilbert",
@@ -3245,7 +3265,7 @@
     "AuthorTitle": "Director of Purdue Institute for Drug Discovery",
     "Date": "2016-10-20T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/Low_University_Forum_10-20-2016.mp3",
     "Video_URI": "https://video.byui.edu/media/University+Forum+-+Fall+2016/0_o4erbm2j"
   },
@@ -3335,7 +3355,7 @@
     "AuthorTitle": "General Authority Seventy",
     "Date": "2016-12-16T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/BCTR_Convocation_12-16-16_Wilson.mp3",
     "Video_URI": "https://video.byui.edu/media/Convocation+Larry+Y+Wilson+Fall+2016/0_3k6gby2m/13848622"
   },
@@ -3355,7 +3375,7 @@
     "AuthorTitle": "General Authority Seventy",
     "Date": "2016-12-16T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/Taylor_ConvocationFall_12-16-16_Clark.mp3",
     "Video_URI": null
   },
@@ -3385,7 +3405,7 @@
     "AuthorTitle": "BYU-Idaho President",
     "Date": "2016-12-16T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/BCTR_Convocation_12-16-16_Gilbert.mp3",
     "Video_URI": "https://video.byui.edu/media/Convocation+President+Clark+Gilbert+Fall+2016/0_bn2oqj8f/13848622"
   },
@@ -3532,7 +3552,7 @@
   {
     "DevoName": "Be Prepared to Follow the Savior",
     "Author": "Sister Sue L. Clark",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2015-03-31T00:00:00",
     "Campus": "Idaho",
     "URI": "http://www.byui.edu/devotionals/sister-sue-l-clark-winter-2015-final-devo",
@@ -3782,7 +3802,7 @@
   {
     "DevoName": "Eternal Learning",
     "Author": "Sister Jane Clayson Johnson",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2015-07-30T00:00:00",
     "Campus": "Idaho",
     "URI": null,
@@ -3885,7 +3905,7 @@
     "AuthorTitle": "President, BYU Idaho",
     "Date": "2015-09-15T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/InauguralLuncheon_PresidentGilbert_15Sep2015.mp3",
     "Video_URI": null
   },
@@ -4532,7 +4552,7 @@
   {
     "DevoName": "Love of God – Be Loved!",
     "Author": "Sister Sue Clark",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2014-09-16T00:00:00",
     "Campus": "Idaho",
     "URI": "http://www.byui.edu/devotionals/sister-sue-l-clark-fall-2014",
@@ -5655,7 +5675,7 @@
     "AuthorTitle": "",
     "Date": "2012-07-27T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2012_07_27_DV_Clayton.mp3",
     "Video_URI": "https://video.byui.edu/media/L.+Whitney+Clayton+%22Bring+Up+Your+Children+in+Light+and+Truth%22/0_5crwfo5k"
   },
@@ -7102,7 +7122,7 @@
   {
     "DevoName": "My Testimony: President Thomas S. Monson, A Prophet",
     "Author": "Sister Sue  Clark",
-    "AuthorTitle": "",
+    "AuthorTitle": null,
     "Date": "2009-01-13T00:00:00",
     "Campus": "Idaho",
     "URI": "http://www.byui.edu/devotionals/sister-sue-clark-winter-2009",
@@ -7565,7 +7585,7 @@
     "AuthorTitle": "Dir of Public & Intl Affairs in NY, LDS Church",
     "Date": "2009-10-15T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Forums/2009_10_15_FR_Corbitt.mp3",
     "Video_URI": null
   },
@@ -9505,7 +9525,7 @@
     "AuthorTitle": "CEO of Times Mirror and Returned Mission President",
     "Date": "2005-03-24T00:00:00",
     "Campus": "Idaho",
-    "URI": "",
+    "URI": null,
     "MP3_URI": null,
     "Video_URI": "http://www.byui.edu/devotionals/Brother-Mark-H-Willes"
   },

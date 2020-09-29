@@ -63,14 +63,10 @@ foreach ($speakerLink in $speakerLinks) {
 		# Author Title - If the title is not blank, then assign it
 		if (($authorTitle_Matches[0].Groups.Where{$_.Name -like 'authorTitle'}).Value -ne '') {
 			$tempDevotional.AuthorTitle = ($authorTitle_Matches[0].Groups.Where{$_.Name -like 'authorTitle'}).Value
-		} else {
-			$tempDevotional.AuthorTitle = ''
 		}
 
 		# MP3 URI - if the MP3 is not unavailable, set the URI - the '.mp3' extension must be added back as well
-		if (($mp3URI_Matches[$count].Groups.Where{$_.Name -like 'mp3Available'}).Value -like 'unavailable') {
-			$tempDevotional.MP3_URI = ''
-		} else {
+		if (($mp3URI_Matches[$count].Groups.Where{$_.Name -like 'mp3Available'}).Value -notlike 'unavailable') {
 			$tempDevotional.MP3_URI = ($mp3URI_Matches[$count].Groups.Where{$_.Name -like 'mp3URI'}).Value + '.mp3'
 		}
 
@@ -78,7 +74,6 @@ foreach ($speakerLink in $speakerLinks) {
 		# set the value to null, then loop through available values to check for a match
 		# if it matches, add '/?M=V' to the end, so that clicking the link plays the video
 		# The regex match removes the last part of the URI, so it needs to be added back
-		$tempDevotional.Video_URI = ''
 		foreach ($videoURI in ($videoURI_Matches.Groups.Where{$_.Name -like 'videoURI'}).Value) {
 			if ($videoURI -eq $titleURI) {
 				$tempDevotional.Video_URI = $videoURI + '?M=V'

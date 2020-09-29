@@ -28,26 +28,23 @@ foreach ($year in $currentYear..1957) {
 
 			$tempDevotional.DevoName = $devotional.name
 			$tempDevotional.Author = $devotional.speakerName
-			$tempDevotional.AuthorTitle = $devotional.speakerPosition
 			$tempDevotional.Date = $devotional.date
 			$tempDevotional.Campus = 'Idaho'
+			
+			if ($devotional.speakerPosition -ne '') {
+				$tempDevotional.AuthorTitle = $devotional.speakerPosition
+			}
 
 			if ($devotional.transcriptAvailable -or $devotional.transcriptPath -ne '') {
 				$tempDevotional.URI = $devotional.transcriptPath
-			} else {
-				$tempDevotional.URI = ''
 			}
 
 			if ($devotional.mp3Available -or $devotional.mp3Path -ne '') {
 				$tempDevotional.MP3_URI = $devotional.mp3Path
-			} else {
-				$tempDevotional.MP3_URI = ''
 			}
 
 			if ($devotional.videoAvailable -or $devotional.videoPath -ne '') {
 				$tempDevotional.Video_URI = $devotional.videoPath
-			} else {
-				$tempDevotional.Video_URI = ''
 			}
 
 			$devotionalsArray += $tempDevotional
