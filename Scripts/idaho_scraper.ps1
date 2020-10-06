@@ -1,3 +1,5 @@
+param($basePath)
+
 # Declare the Devotional class
 class Devotional {
 	[string]$DevoName
@@ -14,7 +16,7 @@ class Devotional {
 $devotionalsArray = @()
 $currentYear = Get-Date -Format yyyy
 $baseURL = "https://web.byui.edu/devotionalsandspeeches/api/Speeches?year="
-$exportPath = './JSON/idaho.json'
+$exportPath = $basePath + '/idaho.json'
 
 foreach ($year in $currentYear..1957) {
 	$url = $baseURL + $year

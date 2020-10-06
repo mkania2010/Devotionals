@@ -1,3 +1,5 @@
+param($basePath)
+
 # Declare the Devotional class
 class Devotional {
 	[string]$DevoName
@@ -21,7 +23,7 @@ $JS_date_Pattern = 'ImageOnTop-date">(?<date>.*)</div>'
 $JS_authorName_Pattern = 'ImageOnTop-authorName">[\n\s]*By[\n\s]*<a.*data-cms.*>(?<authorName>.*)</a>'
 
 $devotionalsArray = @()
-$exportPath = './JSON/hawaii.json'
+$exportPath = $basePath + '/hawaii.json'
 
 # Make an array for pages to check
 $devoURL = 'https://speeches.byuh.edu/devotionals?00000173-11e3-d882-a57f-33ff646d0000-page='

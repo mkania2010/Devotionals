@@ -1,3 +1,5 @@
+param($basePath)
+
 # Declare the Devotional class
 class Devotional {
 	[string]$DevoName
@@ -13,7 +15,7 @@ class Devotional {
 # Declare variables
 $speakerLinks = @()
 $devotionalsArray = @()
-$exportPath = './JSON/provo.json'
+$exportPath = $basePath + '/provo.json'
 
 # variables for the Regex Patterns
 $title_URI_Pattern = 'card__header--reduced">[\n\t]*<a href="(?<uri>.*)">(?<title>.*)<\/a>'
