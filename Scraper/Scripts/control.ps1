@@ -9,11 +9,12 @@ $scriptList = @(
 	'~/Documents/Github/Devotionals/Scripts/hawaii_scraper.ps1'
 )
 
-# Execute each scraper script
+# # Execute each scraper script
 foreach ($script in $scriptList) {
     & $script '~/Documents/Github/Devotionals/JSON'
 }
 
+$count = 1
 # Clean up the JSON documents a little and import them into the mongo database
 Get-ChildItem ./JSON | ForEach-Object {
 	((Get-Content -Path $_ -Raw) -replace ([regex]'\s{2,}(?=\w)'),' ') | Set-Content -Path $_ # replace 2 or more whitespace if a word is next
@@ -42,5 +43,11 @@ Get-ChildItem ./JSON | ForEach-Object {
 	((Get-Content -Path $_ -Raw) -replace ' ",','",') | Set-Content -Path $_ # Space at the end of the string
 
 
-	& $mongoImport mongodb://localhost/Devotionals -c=Devotionals --type=JSON --jsonArray --file=$_ --drop
+	if ($count -eq 1) {
+		& $mongoImport mongodb://localhost/Devotionals -c=Devotionals --type=JSON --jsonArray --file=$_ --drop
+	} else {
+		& $mongoImport mongodb://localhost/Devotionals -c=Devotionals --type=JSON --jsonArray --file=$_
+	}
+
+	$count++
 }

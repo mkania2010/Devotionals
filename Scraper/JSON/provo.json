@@ -617,7 +617,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/damon-l-bahr/the-unique-opportunities-of-living-at-this-time-in/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Bahr_Damon_2011_11_15.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/damon-l-bahr/the-unique-opportunities-of-living-at-this-time-in/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Going Forward with Faith During Difficult Times",
@@ -988,16 +988,6 @@
     "URI": "https://speeches.byu.edu/talks/sally-h-barlow/crucibles-eternal-identity/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Barlow_Sally_1999_06_08.mp3",
     "Video_URI": null
-  },
-  {
-    "DevoName": "The Education of the American Mind",
-    "Author": "Melody Barnes",
-    "AuthorTitle": null,
-    "Date": "2020-09-29T00:00:00",
-    "Campus": "Provo",
-    "URI": "https://speeches.byu.edu/talks/melody-barnes/education-american-mind/",
-    "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/2020/09/Barnes_Melody_2020_09_29_cutsweet1.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/melody-barnes/education-american-mind/?M=V"
   },
   {
     "DevoName": "Finding Strength in Christ",
@@ -1980,16 +1970,6 @@
     "Video_URI": null
   },
   {
-    "DevoName": "“Angels to Beckon Me”",
-    "Author": "Candace Berrett",
-    "AuthorTitle": null,
-    "Date": "2020-10-06T00:00:00",
-    "Campus": "Provo",
-    "URI": "https://speeches.byu.edu/talks/candace-berrett/angels-to-beckon-me/",
-    "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/2020/10/Berrett_-Candace_2020_10_06.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/candace-berrett/angels-to-beckon-me/?M=V"
-  },
-  {
     "DevoName": "Earnest Prayer",
     "Author": "Marilyn W. Berrett",
     "AuthorTitle": null,
@@ -2306,7 +2286,7 @@
     "Date": "1999-06-29T00:00:00",
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/r-lanier-britsch/nobility-failure/",
-    "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/1999/06/Britsch_RLanier_1999_06_29_cutsweet.mp3",
+    "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Britsch_Lanier_061999.mp3",
     "Video_URI": null
   },
   {
@@ -3117,7 +3097,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/tad-r-callister/becoming-men-and-women-of-integrity/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Callister_Tad_2011_12_06.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/tad-r-callister/becoming-men-and-women-of-integrity/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "The Seasons of His Mercy",
@@ -4317,7 +4297,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/r-kent-crookston/natural-law-blessings/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Crookston_Kent_2001.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/r-kent-crookston/natural-law-blessings/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "'The Undiscover'd Country': Navigating Toward the Future",
@@ -4727,7 +4707,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/richard-d-draper/light-truth-and-grace-three-interrelated-principles-necessary-for-exaltation/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Draper_Richard_072009.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/richard-d-draper/light-truth-and-grace-three-interrelated-principles-necessary-for-exaltation/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "“Ye Also Ought to Retain in Remembrance”",
@@ -5227,7 +5207,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/william-g-eggington/therefore-ye-are-no-more-strangers-and-foreigners/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Eggington_William_2011-11-08.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/william-g-eggington/therefore-ye-are-no-more-strangers-and-foreigners/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "The Courage to Choose Wisely",
@@ -6837,7 +6817,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/mark-l-grover/one-convert-time/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Grover_MarkL_082001.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/mark-l-grover/one-convert-time/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Hamburgers and Smorgasbords",
@@ -8907,7 +8887,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/richard-neitzel-holzapfel/glass-half-full-second-coming-lord-jesus-christ/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Holzapfel_Richard_2001.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/richard-neitzel-holzapfel/glass-half-full-second-coming-lord-jesus-christ/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Strengthening One Another in the Community of Saints",
@@ -9267,7 +9247,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/elaine-l-jack/get-life/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Jack_Elaine_011993.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/elaine-l-jack/get-life/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Charity: How We Treat Each Other",
@@ -9457,7 +9437,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/michael-a-jensen/life-changing-partnership-spirit/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Jensen_Michael_0520091.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/michael-a-jensen/life-changing-partnership-spirit/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Beyond Baby Shampoo",
@@ -11716,7 +11696,7 @@
     "Date": "2020-09-22T00:00:00",
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/estela-marquez/enduring-trusting-end/",
-    "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/2020/09/Marquez_Estela_2020_09_22_cutsweet.mp3",
+    "MP3_URI": null,
     "Video_URI": "https://speeches.byu.edu/talks/estela-marquez/enduring-trusting-end/?M=V"
   },
   {
@@ -18040,7 +18020,7 @@
     "Video_URI": "https://speeches.byu.edu/talks/sharon-g-samuelson/books-lives/?M=V"
   },
   {
-    "DevoName": "A Good Name -- A Priceless Possession",
+    "DevoName": "A Good Name - A Priceless Possession",
     "Author": "Sharon G. Samuelson",
     "AuthorTitle": null,
     "Date": "2004-09-14T00:00:00",
@@ -18537,7 +18517,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/sterling-w-sill/motivations/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Sill_Sterling_1978_09_24.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/sterling-w-sill/motivations/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Bottles and Books",
@@ -18737,7 +18717,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/robert-l-simpson/missionary/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Simpson_Robert_1978_08_06.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/robert-l-simpson/missionary/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Your 1975 Game Plan",
@@ -19937,7 +19917,7 @@
     "Campus": "Provo",
     "URI": "https://speeches.byu.edu/talks/heidi-s-swinton/peace-like-river/",
     "MP3_URI": "https://speeches.byu.edu/wp-content/uploads/mp3/Swinton_Heidi_04_2004.mp3",
-    "Video_URI": "https://speeches.byu.edu/talks/heidi-s-swinton/peace-like-river/?M=V"
+    "Video_URI": null
   },
   {
     "DevoName": "Both Feet Forward",
@@ -22240,65 +22220,4 @@
     "Video_URI": null
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

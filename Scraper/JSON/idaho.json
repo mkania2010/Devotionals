@@ -505,7 +505,7 @@
     "AuthorTitle": "BYU-Idaho President",
     "Date": "2020-09-15T00:00:00",
     "Campus": "Idaho",
-    "URI": "https://www.byui.edu/devotionals/president-eyring-fall-2020",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-15_ElderEyring.mp3",
     "Video_URI": "https://video.byui.edu/media/President+Henry+J.+Eyring+-+%E2%80%9CWe+Are+All+Enlisted%E2%80%9D/1_izn3wq34"
   },
@@ -515,7 +515,7 @@
     "AuthorTitle": null,
     "Date": "2020-09-15T00:00:00",
     "Campus": "Idaho",
-    "URI": "https://www.byui.edu/devotionals/sister-eyring-fall-2020",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-15_SisEyring_DV.mp3",
     "Video_URI": "https://video.byui.edu/media/Kelly+Eyring-+%22Hello+Again%22/1_0elbta4h/147052562"
   },
@@ -528,26 +528,6 @@
     "URI": "https://www.byui.edu/devotionals/elder-randy-d-funk",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-22_Devo_Funk_ENG.mp3",
     "Video_URI": "https://video.byui.edu/media/Elder+Randy+D.+Funk+and+Sister+Andrea+Funk/1_d5ftuz9r"
-  },
-  {
-    "DevoName": "Make Christ the Center of Your Life",
-    "Author": "Peter Williams",
-    "AuthorTitle": null,
-    "Date": "2020-09-29T00:00:00",
-    "Campus": "Idaho",
-    "URI": "https://www.byui.edu/devotionals/peter-williams",
-    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/29_09_2020_Devo.mp3",
-    "Video_URI": "https://video.byui.edu/media/Peter+Williams+-+%22Make+Christ+the+Center+of+Your+Life%22/1_l6kk9z6f"
-  },
-  {
-    "DevoName": "Service Soothes Suffering",
-    "Author": "Roger Adams",
-    "AuthorTitle": "Senior Software Engineer",
-    "Date": "2020-10-06T00:00:00",
-    "Campus": "Idaho",
-    "URI": "https://www.byui.edu//devotionals/roger-adams",
-    "MP3_URI": null,
-    "Video_URI": "https://video.byui.edu/media/Roger+Adams+-+%22Service+Soothes+Suffering%22/1_7zeauyz6/147052562"
   },
   {
     "DevoName": "Writing in the Stars",
@@ -7050,6 +7030,16 @@
     "Video_URI": "http://www.byui.edu/devotionals/dennis-tolman"
   },
   {
+    "DevoName": "Wait Upon the Lord",
+    "Author": "David A. Bednar",
+    "AuthorTitle": "Quorum of the Twelve Apostles",
+    "Date": "2010-12-17T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/speeches/elder-david-a-bednar",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "Leaders Worthy of Emulation",
     "Author": "Russell M. Nelson",
     "AuthorTitle": "Quorum of the Twelve Apostles",
@@ -7085,7 +7075,7 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2010-12-17T00:00:00",
     "Campus": "Idaho",
-    "URI": "https://www.byui.edu/speeches/elder-david-a-bednar",
+    "URI": null,
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/DedicationBadnar_17Dec2010_ENG.mp3",
     "Video_URI": null
   },
@@ -9540,7 +9530,7 @@
     "Video_URI": "http://www.byui.edu/devotionals/Brother-Mark-H-Willes"
   },
   {
-    "DevoName": "Power to Become Sons and Daughters of God",
+    "DevoName": "Power to Become Sons and Daughters of God ",
     "Author": "Kevin Brower",
     "AuthorTitle": "BYU-Idaho Music Department Faculty",
     "Date": "2005-03-29T00:00:00",
@@ -10161,7 +10151,7 @@
   },
   {
     "DevoName": "True Blue, Through and Through",
-    "Author": "Sheri L. Dew",
+    "Author": "Sister Sheri L. Dew",
     "AuthorTitle": "Former General Relief Society Presidency",
     "Date": "2004-03-16T00:00:00",
     "Campus": "Idaho",
@@ -10530,7 +10520,7 @@
     "Video_URI": "https://www.byui.edu/devotionals/brother-truman-g-madsen-2004"
   },
   {
-    "DevoName": "The Choice",
+    "DevoName": "The Choice ",
     "Author": "Susan Easton Black",
     "AuthorTitle": "Professor of Church History and Doctrine at BYU",
     "Date": "2004-11-02T00:00:00",
@@ -19640,7 +19630,7 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Choose a More Excellent Way",
+    "DevoName": "Choose a More Excellent Way ",
     "Author": "Charles M. Grant",
     "AuthorTitle": "Head Football Coach at Ricks College",
     "Date": "1984-09-25T00:00:00",
@@ -19650,7 +19640,7 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Choose a More Excellent Way",
+    "DevoName": "Choose a More Excellent Way ",
     "Author": "G. Grant",
     "AuthorTitle": null,
     "Date": "1984-09-25T00:00:00",
@@ -23500,65 +23490,4 @@
     "Video_URI": null
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
