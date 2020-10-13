@@ -1,5 +1,15 @@
 [
   {
+    "DevoName": "Wilford Griggs",
+    "Author": "Wilford Griggs",
+    "AuthorTitle": null,
+    "Date": "2020-10-12T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/wilford-griggs",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "Learning and Living by Principles",
     "Author": "John Kauwe",
     "AuthorTitle": null,
@@ -761,7 +771,7 @@
   },
   {
     "DevoName": "Experiment Upon the Word",
-    "Author": "Kevin R. Duncan  ",
+    "Author": "Kevin R. Duncan",
     "AuthorTitle": null,
     "Date": "2017-11-13T00:00:00",
     "Campus": "Hawaii",
@@ -1301,7 +1311,7 @@
   },
   {
     "DevoName": "Read His Mind, Do His Will",
-    "Author": "Elder Yoon Hwan Choi",
+    "Author": "Yoon Hwan Choi",
     "AuthorTitle": null,
     "Date": "2016-03-29T00:00:00",
     "Campus": "Hawaii",
@@ -2140,10 +2150,20 @@
     "Video_URI": null
   },
   {
+    "DevoName": "The Joy That Is Christmas",
+    "Author": null,
+    "AuthorTitle": null,
+    "Date": "2013-12-03T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/the-joy-that-is-christmas",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "Be There and Be Happy",
     "Author": "Michael A. Johanson",
     "AuthorTitle": null,
-    "Date": "2013-11-25T00:00:00",
+    "Date": "2013-11-26T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/be-there-and-be-happy",
     "MP3_URI": null,
@@ -2153,7 +2173,7 @@
     "DevoName": "Content Management for the Soul",
     "Author": "Susan Kunz",
     "AuthorTitle": null,
-    "Date": "2013-11-18T00:00:00",
+    "Date": "2013-11-19T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/content-management-for-the-soul",
     "MP3_URI": null,
@@ -2163,9 +2183,9 @@
     "DevoName": "The Book of Abraham, Joseph Smith, Revelation, and You",
     "Author": "Kerry Muhlestein",
     "AuthorTitle": null,
-    "Date": "2013-11-11T00:00:00",
+    "Date": "2013-11-12T00:00:00",
     "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/devotional/the-book-of-abraham-joseph-smith-revelation-and-you",
+    "URI": "https://speeches.byuh.edu/joseph-smith-lecture/the-book-of-abraham-joseph-smith-revelation-and-you",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -2173,7 +2193,7 @@
     "DevoName": "How Can You Be Happy in Your Life?",
     "Author": "Kenneth M. Woolley",
     "AuthorTitle": null,
-    "Date": "2013-10-28T00:00:00",
+    "Date": "2013-10-29T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/how-can-you-be-happy-in-your-life",
     "MP3_URI": null,
@@ -2183,7 +2203,7 @@
     "DevoName": "What Are You Taking Home to God? or What’s In Your Cart?",
     "Author": "Robert Cochran",
     "AuthorTitle": null,
-    "Date": "2013-10-21T00:00:00",
+    "Date": "2013-10-22T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/what-are-you-taking-home-to-god-or-whats-in-your-cart",
     "MP3_URI": null,
@@ -2193,7 +2213,7 @@
     "DevoName": "When Thou Art Converted",
     "Author": "Ronald K. Hawkins",
     "AuthorTitle": null,
-    "Date": "2013-10-14T00:00:00",
+    "Date": "2013-10-15T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/when-thou-art-converted",
     "MP3_URI": null,
@@ -2203,7 +2223,7 @@
     "DevoName": "Making and Keeping Covenants",
     "Author": "Michael B. Bliss",
     "AuthorTitle": null,
-    "Date": "2013-10-07T00:00:00",
+    "Date": "2013-10-08T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/making-and-keeping-covenants",
     "MP3_URI": null,
@@ -2213,7 +2233,7 @@
     "DevoName": "The Right Place at the Right Time",
     "Author": "Kali Fermantez",
     "AuthorTitle": null,
-    "Date": "2013-09-30T00:00:00",
+    "Date": "2013-10-01T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-right-place-at-the-right-time",
     "MP3_URI": null,
@@ -2223,7 +2243,7 @@
     "DevoName": "Be Not Afraid, Only Believe",
     "Author": "Gerrit W. Gong",
     "AuthorTitle": null,
-    "Date": "2013-09-23T00:00:00",
+    "Date": "2013-09-24T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/be-not-afraid-only-believe",
     "MP3_URI": null,
@@ -2233,7 +2253,7 @@
     "DevoName": "Are You in Control?",
     "Author": "Larry W. Gibbons",
     "AuthorTitle": null,
-    "Date": "2013-09-16T00:00:00",
+    "Date": "2013-09-17T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/are-you-in-control",
     "MP3_URI": null,
@@ -2243,7 +2263,7 @@
     "DevoName": "Am I My Brother's Keeper?",
     "Author": "Steven C. Wheelwright",
     "AuthorTitle": null,
-    "Date": "2013-09-09T00:00:00",
+    "Date": "2013-09-10T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/am-i-my-brothers-keeper2",
     "MP3_URI": null,
@@ -2253,7 +2273,7 @@
     "DevoName": "From Creation to Exaltation",
     "Author": "Brandon Truscott",
     "AuthorTitle": null,
-    "Date": "2013-08-19T00:00:00",
+    "Date": "2013-08-20T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/from-creation-to-exaltation",
     "MP3_URI": null,
@@ -2263,7 +2283,7 @@
     "DevoName": "Finding Joy through Church Service",
     "Author": "Mark Wolfersberger",
     "AuthorTitle": null,
-    "Date": "2013-08-12T00:00:00",
+    "Date": "2013-08-13T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/finding-joy-through-church-service",
     "MP3_URI": null,
@@ -2273,7 +2293,7 @@
     "DevoName": "Decision - Making",
     "Author": "P. Steven McDonough",
     "AuthorTitle": null,
-    "Date": "2013-08-05T00:00:00",
+    "Date": "2013-08-06T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/decision-making",
     "MP3_URI": null,
@@ -2283,7 +2303,7 @@
     "DevoName": "The Hand of the Lord in Our Lives",
     "Author": "Marilee Ching",
     "AuthorTitle": null,
-    "Date": "2013-07-29T00:00:00",
+    "Date": "2013-07-30T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-hand-of-the-lord-in-our-lives",
     "MP3_URI": null,
@@ -2293,7 +2313,7 @@
     "DevoName": "Don’t Give Up What You Want Most, For What You Want Now",
     "Author": "Donna Checketts & Shayla Smith",
     "AuthorTitle": null,
-    "Date": "2013-07-22T00:00:00",
+    "Date": "2013-07-23T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/dont-give-up-what-you-want-most-for-what-you-want-now",
     "MP3_URI": null,
@@ -2303,7 +2323,7 @@
     "DevoName": "The Relationship Between Fun and Happiness",
     "Author": "Melvin J. Palmer",
     "AuthorTitle": null,
-    "Date": "2013-07-15T00:00:00",
+    "Date": "2013-07-16T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-relationship-between-fun-and-happiness",
     "MP3_URI": null,
@@ -2313,7 +2333,7 @@
     "DevoName": "Tales from the Trenches II: Experiences of a Former Campus Bishop",
     "Author": "Michael Weber",
     "AuthorTitle": null,
-    "Date": "2013-06-03T00:00:00",
+    "Date": "2013-06-04T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/tales-from-the-trenches-ii-experiences-of-a-former-campus-bishop",
     "MP3_URI": null,
@@ -2323,7 +2343,7 @@
     "DevoName": "Always Abounding in Good Works",
     "Author": "Rose Ram",
     "AuthorTitle": null,
-    "Date": "2013-05-27T00:00:00",
+    "Date": "2013-05-28T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/always-abounding-in-good-works",
     "MP3_URI": null,
@@ -2333,9 +2353,19 @@
     "DevoName": "An Eye Single to the Glory of God",
     "Author": "Donald Q. Cannon",
     "AuthorTitle": null,
-    "Date": "2013-05-20T00:00:00",
+    "Date": "2013-05-21T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/an-eye-single-to-the-glory-of-god",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Lost and Found",
+    "Author": "Mark James",
+    "AuthorTitle": null,
+    "Date": "2013-05-14T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/lost-and-found",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -2343,7 +2373,7 @@
     "DevoName": "Learn to be More Wise in Enemy Territory",
     "Author": "Morris A. Graham",
     "AuthorTitle": null,
-    "Date": "2013-05-06T00:00:00",
+    "Date": "2013-05-07T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/learn-to-be-more-wise-in-enemy-territory",
     "MP3_URI": null,
@@ -2353,9 +2383,39 @@
     "DevoName": "Armed with Righteousness and the Power of God",
     "Author": "Richard Kinnersley",
     "AuthorTitle": null,
-    "Date": "2013-04-29T00:00:00",
+    "Date": "2013-04-30T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/armed-with-righteousness-and-the-power-of-god",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "We Seek After These Things",
+    "Author": "Michael Ballam",
+    "AuthorTitle": null,
+    "Date": "2013-04-23T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/we-seek-after-these-things",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Gems From Joseph",
+    "Author": "Ronald Miller",
+    "AuthorTitle": null,
+    "Date": "2013-04-02T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/gems-from-joseph",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Becoming a Zion Community",
+    "Author": "Mark Willes",
+    "AuthorTitle": null,
+    "Date": "2013-03-19T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/becoming-a-zion-community",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -2363,7 +2423,7 @@
     "DevoName": "True to Yourself",
     "Author": "Patrick Kanekoa",
     "AuthorTitle": null,
-    "Date": "2013-03-11T00:00:00",
+    "Date": "2013-03-12T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/true-to-yourself",
     "MP3_URI": null,
@@ -2373,7 +2433,7 @@
     "DevoName": "The Spiritual Gift of a Forgiving Heart",
     "Author": "Gregory D. Hendrickson",
     "AuthorTitle": null,
-    "Date": "2013-03-04T00:00:00",
+    "Date": "2013-03-05T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-spiritual-gift-of-a-forgiving-heart",
     "MP3_URI": null,
@@ -2383,7 +2443,7 @@
     "DevoName": "Making and Keeping Sacred Covenants",
     "Author": "Voi R. Taeoalii",
     "AuthorTitle": null,
-    "Date": "2013-02-25T00:00:00",
+    "Date": "2013-02-26T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/making-and-keeping-sacred-covenants",
     "MP3_URI": null,
@@ -2393,7 +2453,7 @@
     "DevoName": "Faith to Forgive Grievous Harms: Accepting the Atonement as Restitution",
     "Author": "James R. Rasband",
     "AuthorTitle": null,
-    "Date": "2013-02-18T00:00:00",
+    "Date": "2013-02-19T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/faith-to-forgive-grievous-harms-accepting-the-atonement-as-restitution",
     "MP3_URI": null,
@@ -2403,7 +2463,7 @@
     "DevoName": "Perfect Love Casteth Out All Fear",
     "Author": "May Shumway",
     "AuthorTitle": null,
-    "Date": "2013-02-11T00:00:00",
+    "Date": "2013-02-12T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/perfect-love-casteth-out-all-fear",
     "MP3_URI": null,
@@ -2413,7 +2473,7 @@
     "DevoName": "Reefs of Learning, Islands of Faith",
     "Author": "Von Orgill",
     "AuthorTitle": null,
-    "Date": "2013-02-04T00:00:00",
+    "Date": "2013-02-05T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/reefs-of-learning-islands-of-faith",
     "MP3_URI": null,
@@ -2423,7 +2483,7 @@
     "DevoName": "Hold to the Rod",
     "Author": "Glade Tew",
     "AuthorTitle": null,
-    "Date": "2013-01-28T00:00:00",
+    "Date": "2013-01-29T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/hold-to-the-rod",
     "MP3_URI": null,
@@ -2433,7 +2493,7 @@
     "DevoName": "Anxiously Engaged in a Good Cause",
     "Author": "Mustapha El Akkari, Kesa Kaufusi, John Fryhoff",
     "AuthorTitle": null,
-    "Date": "2013-01-21T00:00:00",
+    "Date": "2013-01-22T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/anxiously-engaged-in-a-good-cause",
     "MP3_URI": null,
@@ -2443,7 +2503,7 @@
     "DevoName": "Faith in the Redemption",
     "Author": "Jennifer Lane",
     "AuthorTitle": null,
-    "Date": "2013-01-14T00:00:00",
+    "Date": "2013-01-15T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/faith-in-the-redemption",
     "MP3_URI": null,
@@ -2453,7 +2513,7 @@
     "DevoName": "'The Law of the Harvest'",
     "Author": "Steven C. Wheelwright",
     "AuthorTitle": null,
-    "Date": "2013-01-07T00:00:00",
+    "Date": "2013-01-08T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-law-of-the-harvest",
     "MP3_URI": null,
@@ -2473,7 +2533,7 @@
     "DevoName": "Time to Build",
     "Author": "David A. Lewis",
     "AuthorTitle": null,
-    "Date": "2012-11-19T00:00:00",
+    "Date": "2012-11-20T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/time-to-build",
     "MP3_URI": null,
@@ -2485,16 +2545,6 @@
     "AuthorTitle": null,
     "Date": "2012-11-13T00:00:00",
     "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/joseph-smith-lecture/joseph-smith-and-christs-eternal-gospel",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
-    "DevoName": "Joseph Smith and Christ’s Eternal Gospel",
-    "Author": "Robert L. Millet",
-    "AuthorTitle": null,
-    "Date": "2012-11-12T00:00:00",
-    "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/joseph-smith-and-christs-eternal-gospel",
     "MP3_URI": null,
     "Video_URI": null
@@ -2503,7 +2553,7 @@
     "DevoName": "The Desire to Become",
     "Author": "James D. Lee",
     "AuthorTitle": null,
-    "Date": "2012-11-05T00:00:00",
+    "Date": "2012-11-06T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-desire-to-become",
     "MP3_URI": null,
@@ -2513,7 +2563,7 @@
     "DevoName": "That's Life",
     "Author": "J. Christopher Lansing",
     "AuthorTitle": null,
-    "Date": "2012-10-29T00:00:00",
+    "Date": "2012-10-30T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/thats-life",
     "MP3_URI": null,
@@ -2523,7 +2573,7 @@
     "DevoName": "Of a Sound Mind",
     "Author": "Virginia Pearce",
     "AuthorTitle": null,
-    "Date": "2012-10-22T00:00:00",
+    "Date": "2012-10-23T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/of-a-sound-mind",
     "MP3_URI": null,
@@ -2533,7 +2583,7 @@
     "DevoName": "Defining Moments",
     "Author": "Katherine Workman",
     "AuthorTitle": null,
-    "Date": "2012-10-15T00:00:00",
+    "Date": "2012-10-16T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/defining-moments",
     "MP3_URI": null,
@@ -2543,7 +2593,7 @@
     "DevoName": "Scriptural Keys to Success",
     "Author": "Arnold K. Garr",
     "AuthorTitle": null,
-    "Date": "2012-10-08T00:00:00",
+    "Date": "2012-10-09T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/scriptural-keys-to-success",
     "MP3_URI": null,
@@ -2553,7 +2603,7 @@
     "DevoName": "Instructed by the Spirit",
     "Author": "Lyle Cottle",
     "AuthorTitle": null,
-    "Date": "2012-10-01T00:00:00",
+    "Date": "2012-10-02T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/instructed-by-the-spirit",
     "MP3_URI": null,
@@ -2563,7 +2613,7 @@
     "DevoName": "Live Your Vision",
     "Author": "Ian S. Ardern",
     "AuthorTitle": null,
-    "Date": "2012-09-24T00:00:00",
+    "Date": "2012-09-25T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/live-your-vision",
     "MP3_URI": null,
@@ -2573,7 +2623,7 @@
     "DevoName": "Spiritual Code Talkers",
     "Author": "H. Ross Workman",
     "AuthorTitle": null,
-    "Date": "2012-09-17T00:00:00",
+    "Date": "2012-09-18T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/spiritual-code-talkers",
     "MP3_URI": null,
@@ -2583,7 +2633,7 @@
     "DevoName": "The Blessing of Religious Freedom",
     "Author": "Steven C. Wheelwright",
     "AuthorTitle": null,
-    "Date": "2012-09-10T00:00:00",
+    "Date": "2012-09-11T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-blessing-of-religious-freedom",
     "MP3_URI": null,
@@ -2593,7 +2643,7 @@
     "DevoName": "Love is an Action Verb",
     "Author": "James R. Long",
     "AuthorTitle": null,
-    "Date": "2012-08-20T00:00:00",
+    "Date": "2012-08-21T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/love-is-an-action-verb",
     "MP3_URI": null,
@@ -2603,7 +2653,7 @@
     "DevoName": "Just Because...",
     "Author": "Owen Matsunaga",
     "AuthorTitle": null,
-    "Date": "2012-08-13T00:00:00",
+    "Date": "2012-08-14T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/just-because",
     "MP3_URI": null,
@@ -2613,7 +2663,7 @@
     "DevoName": "What Shall I Become?",
     "Author": "Jodi Chowen",
     "AuthorTitle": null,
-    "Date": "2012-08-06T00:00:00",
+    "Date": "2012-08-07T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/what-shall-i-become",
     "MP3_URI": null,
@@ -2623,7 +2673,7 @@
     "DevoName": "Parable of the Foxholes",
     "Author": "Lance B. Wickman",
     "AuthorTitle": null,
-    "Date": "2012-07-30T00:00:00",
+    "Date": "2012-07-31T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/parable-of-the-foxholes",
     "MP3_URI": null,
@@ -2643,7 +2693,7 @@
     "DevoName": "Search Me, O God, and Know My Heart",
     "Author": "C. Brian Hardy",
     "AuthorTitle": null,
-    "Date": "2012-07-16T00:00:00",
+    "Date": "2012-07-17T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/search-me-o-god-and-know-my-heart",
     "MP3_URI": null,
@@ -2653,7 +2703,7 @@
     "DevoName": "Come, and Move to Higher Ground",
     "Author": "Robert H. Todd",
     "AuthorTitle": null,
-    "Date": "2012-06-04T00:00:00",
+    "Date": "2012-06-05T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/come-and-move-to-higher-ground",
     "MP3_URI": null,
@@ -2663,7 +2713,7 @@
     "DevoName": "Ponder, Liken, and Record",
     "Author": "Gary L. Crittenden",
     "AuthorTitle": null,
-    "Date": "2012-05-28T00:00:00",
+    "Date": "2012-05-29T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/ponder-liken-and-record",
     "MP3_URI": null,
@@ -2673,7 +2723,7 @@
     "DevoName": "Of Families and the Doctrine of Inclusion",
     "Author": "Phillip McArthur",
     "AuthorTitle": null,
-    "Date": "2012-05-21T00:00:00",
+    "Date": "2012-05-22T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/of-families-and-the-doctrine-of-inclusion",
     "MP3_URI": null,
@@ -2683,7 +2733,7 @@
     "DevoName": "Service - A Calling and a Blessing",
     "Author": "Steven Tam",
     "AuthorTitle": null,
-    "Date": "2012-05-14T00:00:00",
+    "Date": "2012-05-15T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/service-a-calling-and-a-blessing",
     "MP3_URI": null,
@@ -2693,7 +2743,7 @@
     "DevoName": "The Journey Home",
     "Author": "Alfred Grace",
     "AuthorTitle": null,
-    "Date": "2012-05-07T00:00:00",
+    "Date": "2012-05-08T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-journey-home",
     "MP3_URI": null,
@@ -2703,7 +2753,7 @@
     "DevoName": "Your Empowering Education",
     "Author": "Kent Michie",
     "AuthorTitle": null,
-    "Date": "2012-04-30T00:00:00",
+    "Date": "2012-05-01T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/your-empowering-education",
     "MP3_URI": null,
@@ -2713,7 +2763,7 @@
     "DevoName": "Building Now for Eternity",
     "Author": "Steven C. Wheelwright",
     "AuthorTitle": null,
-    "Date": "2012-04-23T00:00:00",
+    "Date": "2012-04-24T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/building-now-for-eternity",
     "MP3_URI": null,
@@ -3275,16 +3325,6 @@
     "AuthorTitle": null,
     "Date": "2010-11-09T00:00:00",
     "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/joseph-smith-lecture/joseph-smith-and-hearty-repentance",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
-    "DevoName": "Joseph Smith and Hearty Repentance",
-    "Author": "Steven C. Harper",
-    "AuthorTitle": null,
-    "Date": "2010-11-08T00:00:00",
-    "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/joseph-smith-and-hearty-repentance",
     "MP3_URI": null,
     "Video_URI": null
@@ -3326,16 +3366,6 @@
     "Date": "2010-10-11T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/to-act-or-to-be-acted-upon",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
-    "DevoName": "The Consecration of Our Studies",
-    "Author": "Keith Lane",
-    "AuthorTitle": null,
-    "Date": "2010-10-06T00:00:00",
-    "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/devotional/the-consecration-of-our-studies",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -3441,7 +3471,7 @@
   },
   {
     "DevoName": "Go Forward with Faith",
-    "Author": "Eric Beaver",
+    "Author": null,
     "AuthorTitle": null,
     "Date": "2010-06-07T00:00:00",
     "Campus": "Hawaii",
@@ -3451,7 +3481,7 @@
   },
   {
     "DevoName": "Ye Are Free to Choose",
-    "Author": "Donald R. McArthur",
+    "Author": "Eric Beaver",
     "AuthorTitle": null,
     "Date": "2010-05-24T00:00:00",
     "Campus": "Hawaii",
@@ -3461,7 +3491,7 @@
   },
   {
     "DevoName": "Hale La'a-Mountain of the House of the Lord",
-    "Author": "Anthony D. Perkins",
+    "Author": "Donald R. McArthur",
     "AuthorTitle": null,
     "Date": "2010-05-17T00:00:00",
     "Campus": "Hawaii",
@@ -3471,11 +3501,21 @@
   },
   {
     "DevoName": "The Spirit Said unto Me: Look!",
-    "Author": null,
+    "Author": "Anthony D. Perkins",
     "AuthorTitle": null,
     "Date": "2009-09-21T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotional/the-spirit-said-unto-me-look",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Off the Seashore and into the Mountain Waves",
+    "Author": "Robert Grow",
+    "AuthorTitle": null,
+    "Date": "2009-08-04T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/off-the-seashore-and-into-the-mountain-waves",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -3860,8 +3900,498 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Garth Allred",
+    "DevoName": "Jack Christianson",
+    "Author": "Jack Christianson",
+    "AuthorTitle": null,
+    "Date": "1990-02-01T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/jack-christianson",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Family Council",
+    "Author": "Alton L. Wade",
+    "AuthorTitle": null,
+    "Date": "1990-01-16T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/family-council",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Eugene Fodor",
+    "Author": "Eugene Fodor",
+    "AuthorTitle": null,
+    "Date": "1990-01-10T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/eugene-fodor",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Robert Goodwin",
+    "Author": "Robert Goodwin",
+    "AuthorTitle": null,
+    "Date": "1989-11-09T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/robert-goodwin",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Eric B. Shumway Devotional",
+    "Author": "Eric B. Shumway",
+    "AuthorTitle": null,
+    "Date": "1989-11-07T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/eric-b-shumway-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Stephen R. Covey Devotional",
+    "Author": "Stephen R. Covey",
+    "AuthorTitle": null,
+    "Date": "1989-10-26T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/stephen-r-covey-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Duane E. Hiatt",
+    "Author": "Duane E. Hiatt",
+    "AuthorTitle": null,
+    "Date": "1989-10-19T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/duane-e-hiatt",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Alton L. Wade, Gary Frederick, Lanier Britsch",
+    "Author": "Alton L. Wade",
+    "AuthorTitle": null,
+    "Date": "1989-09-21T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/alton-l-wade-gary-frederick-lanier-britsch",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Eric B. Shumway",
+    "Author": "Eric B. Shumway",
+    "AuthorTitle": null,
+    "Date": "1989-09-07T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/eric-b-shumway",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "President's Assembly",
+    "Author": "Alton L. Wade",
+    "AuthorTitle": null,
+    "Date": "1989-09-05T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/presidents-assembly",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Vaughn J. Featherstone",
+    "Author": "Vaughn J. Featherstone",
+    "AuthorTitle": null,
+    "Date": "1989-05-25T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/vaughn-j-featherstone",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Jay Fox",
+    "Author": "Jay Fox",
+    "AuthorTitle": null,
+    "Date": "1989-05-11T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/jay-fox",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Nolan Reed",
+    "Author": "Nolan Reed",
+    "AuthorTitle": null,
+    "Date": "1989-04-27T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/nolan-reed",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "D. Arthur Haycock",
+    "Author": "Arthur Haycock",
+    "AuthorTitle": null,
+    "Date": "1989-04-06T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/d-arthur-haycock",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Edith Rockwood",
+    "Author": "Edith Rockwood",
+    "AuthorTitle": null,
+    "Date": "1989-03-16T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/edith-rockwood",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Gordon B. Hinckley Devotional",
+    "Author": "Gordon B. Hinckley",
+    "AuthorTitle": null,
+    "Date": "1989-02-17T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/gordon-b-hinckley-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Joe Christiansen",
+    "Author": "Joe Christiansen",
+    "AuthorTitle": null,
+    "Date": "1989-01-19T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/joe-christiansen",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Jeffrey R. Holland Devotional",
+    "Author": "Jeffrey R. Holland",
+    "AuthorTitle": null,
+    "Date": "1989-01-05T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/jeffrey-r-holland-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Eldon Puckett",
+    "Author": "Eldon Puckett",
+    "AuthorTitle": null,
+    "Date": "1988-12-01T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/eldon-puckett",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Garth Monson",
+    "Author": "Garth Monson",
+    "AuthorTitle": null,
+    "Date": "1988-11-17T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/diane-hallstrom",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Diane Hallstrom Devotional",
+    "Author": "Diane Hallstrom",
+    "AuthorTitle": null,
+    "Date": "1988-11-03T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/diane-hallstrom-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "William Wait",
+    "Author": "William Wait",
+    "AuthorTitle": null,
+    "Date": "1988-10-19T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/william-wait",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "A. Lavar Thornock",
+    "Author": "A. Lavar Thornock",
+    "AuthorTitle": null,
+    "Date": "1988-10-06T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/a-lavar-thornock",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Carlos Assay",
+    "Author": "Carlos Assay",
+    "AuthorTitle": null,
+    "Date": "1988-09-22T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/carlos-assay",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Alton L. Wade Devotional",
+    "Author": "Alton L. Wade",
+    "AuthorTitle": null,
+    "Date": "1988-09-08T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/alton-l-wade-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Patrick D. Dalton",
+    "Author": "Patrick D. Dalton",
+    "AuthorTitle": null,
+    "Date": "1988-06-09T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/patrick-d-dalton",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "James Arrington",
+    "Author": "James Arrington",
+    "AuthorTitle": null,
+    "Date": "1988-05-26T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/james-arrington",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "James P. Christensen",
+    "Author": "Ralph Rogers",
+    "AuthorTitle": null,
+    "Date": "1988-05-10T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/james-p-christensen",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Ralph G. Rodgers",
+    "Author": "Frank M. Bradshaw",
+    "AuthorTitle": null,
+    "Date": "1988-04-12T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/ralph-g-rodgers",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Frank M. Bradshaw",
+    "Author": null,
+    "AuthorTitle": null,
+    "Date": "1988-03-17T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/frank-m-bradshaw",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Lewis T. Patterson",
+    "Author": "Lewis T. Patterson",
+    "AuthorTitle": null,
+    "Date": "1988-03-03T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/lewis-t-patterson",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Carolyn J. Rasmus",
+    "Author": "Carolyn J. Rasmus",
+    "AuthorTitle": null,
+    "Date": "1988-02-18T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/carolyn-j-rasmus",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Neal A. Maxwell",
+    "Author": "Neal A. Maxwell",
+    "AuthorTitle": null,
+    "Date": "1988-02-09T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/neal-a-maxwell",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Lanier Britsch",
+    "Author": "Lanier Britsch",
+    "AuthorTitle": null,
+    "Date": "1988-02-02T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/lanier-britsch",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "L. Tom Perry",
+    "Author": "L. Tom Perry",
+    "AuthorTitle": null,
+    "Date": "1988-01-28T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/l-tom-perry",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Thomas S. Monson Devotional",
+    "Author": "Thomas S. Monson",
+    "AuthorTitle": null,
+    "Date": "1988-01-07T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/thomas-s-monson-devotional",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Eni Hunkin",
+    "Author": "Terrance Olsen",
+    "AuthorTitle": null,
+    "Date": "1987-12-12T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/eni-hunkin",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Terrance Olsen",
+    "Author": "Arthur Haycock",
+    "AuthorTitle": null,
+    "Date": "1987-11-19T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/terrance-olsen",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Arthur D. Haycock",
+    "Author": "Lanier Britsch",
+    "AuthorTitle": null,
+    "Date": "1987-11-05T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/arthur-d-haycock",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "R. Lanier Britsch",
+    "Author": "Yoshihiko Kikuchi",
+    "AuthorTitle": null,
+    "Date": "1987-10-22T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/r-lanier-britsch",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Devine Fellowship with Heavenly Father",
+    "Author": "Ron Miyashiro",
+    "AuthorTitle": null,
+    "Date": "1987-10-08T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/devine-fellowship-with-heavenly-father",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Ron Miyashiro",
+    "Author": null,
+    "AuthorTitle": null,
+    "Date": "1987-09-24T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/ron-miyashiro",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Alton L. Wade",
+    "Author": "Alton L. Wade",
+    "AuthorTitle": null,
+    "Date": "1987-09-03T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/alton-l-wade",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "William Perry",
+    "Author": "Barbara Winder",
+    "AuthorTitle": null,
+    "Date": "1987-06-04T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/william-perry",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Barbara Winder",
+    "Author": "Ralph Rogers",
+    "AuthorTitle": null,
+    "Date": "1987-05-07T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/barbara-winder",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Ralph Rogers Devotional",
+    "Author": "Brent Barlow",
+    "AuthorTitle": null,
+    "Date": "1987-03-27T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/may-21-1987-ralph-rogers",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Brent Barlow",
+    "Author": "Ralph Rogers",
+    "AuthorTitle": null,
+    "Date": "1987-03-20T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/brent-barlow",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Ralph Rogers",
+    "Author": "James R. Bradshaw",
+    "AuthorTitle": null,
+    "Date": "1987-03-06T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/ralph-rogers",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "James R. Bradshaw",
     "Author": "Garth Allred",
+    "AuthorTitle": null,
+    "Date": "1987-02-11T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/james-r-bradshaw",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Garth Allred",
+    "Author": "Brian Bowles",
     "AuthorTitle": null,
     "Date": "1987-02-06T00:00:00",
     "Campus": "Hawaii",
@@ -3871,7 +4401,7 @@
   },
   {
     "DevoName": "Brian Bowles",
-    "Author": "Brian Bowles",
+    "Author": "Jeffrey R. Holland",
     "AuthorTitle": null,
     "Date": "1986-11-21T00:00:00",
     "Campus": "Hawaii",
@@ -3881,7 +4411,7 @@
   },
   {
     "DevoName": "Jeffrey R. Holland",
-    "Author": "Jeffrey R. Holland",
+    "Author": "Mark McConkie",
     "AuthorTitle": null,
     "Date": "1986-11-07T00:00:00",
     "Campus": "Hawaii",
@@ -3891,7 +4421,7 @@
   },
   {
     "DevoName": "Mark McConkie",
-    "Author": "Mark McConkie",
+    "Author": "John H. Groberg",
     "AuthorTitle": null,
     "Date": "1986-10-17T00:00:00",
     "Campus": "Hawaii",
@@ -3901,7 +4431,7 @@
   },
   {
     "DevoName": "John H. Groberg",
-    "Author": "John H. Groberg",
+    "Author": null,
     "AuthorTitle": null,
     "Date": "1986-10-10T00:00:00",
     "Campus": "Hawaii",
@@ -4780,16 +5310,6 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Great Things Await You!",
-    "Author": "Elaine S. Dalton",
-    "AuthorTitle": null,
-    "Date": "2012-04-13T00:00:00",
-    "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/commencement/great-things-await-you",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
     "DevoName": "How to Overcome our Personal Goliaths",
     "Author": "Danielle Rodgers Hitz",
     "AuthorTitle": null,
@@ -4806,6 +5326,16 @@
     "Date": "2012-04-13T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/commencement/building-on-a-sure-foundation",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Great Things Await You!",
+    "Author": "Elaine S. Dalton",
+    "AuthorTitle": null,
+    "Date": "2012-04-13T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/commencement/great-things-await-you",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -5611,7 +6141,7 @@
   },
   {
     "DevoName": "The Hegemony of English: A Way Forward",
-    "Author": "Mark James, Ph.D.",
+    "Author": "Mark James",
     "AuthorTitle": null,
     "Date": "2006-02-06T00:00:00",
     "Campus": "Hawaii",
@@ -5790,6 +6320,16 @@
     "Video_URI": null
   },
   {
+    "DevoName": "James Mason",
+    "Author": "James Mason",
+    "AuthorTitle": null,
+    "Date": "1989-04-13T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/david-o-mckay-lectures/james-mason",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "Time, Space and Infinity",
     "Author": "Jack V. Johnson",
     "AuthorTitle": null,
@@ -5800,12 +6340,42 @@
     "Video_URI": null
   },
   {
+    "DevoName": "Orson Scott Card",
+    "Author": "Orson Scott Card",
+    "AuthorTitle": null,
+    "Date": "1988-11-01T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/david-o-mckay-lectures/orson-scott-card",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Lance Chase",
+    "Author": "Lance Chase",
+    "AuthorTitle": null,
+    "Date": "1988-02-11T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/david-o-mckay-lectures/lance-chase",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "The Idea of a Mormon University",
     "Author": "Lance D. Chase",
     "AuthorTitle": null,
     "Date": "1988-02-10T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/david-o-mckay-lecture/the-idea-of-a-mormon-university",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Jack Van Johnson",
+    "Author": "Jack Van Johnson",
+    "AuthorTitle": null,
+    "Date": "1988-02-09T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/david-o-mckay-lectures/jack-van-johnson",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -6170,16 +6740,6 @@
     "Video_URI": null
   },
   {
-    "DevoName": "The Book of Abraham, Joseph Smith, Revelation, and You",
-    "Author": "Kerry Muhlestein",
-    "AuthorTitle": null,
-    "Date": "2013-11-12T00:00:00",
-    "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/joseph-smith-lecture/the-book-of-abraham-joseph-smith-revelation-and-you",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
     "DevoName": "A Giving Heart",
     "Author": "Kent P. Jackson",
     "AuthorTitle": null,
@@ -6290,6 +6850,55 @@
     "Video_URI": null
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

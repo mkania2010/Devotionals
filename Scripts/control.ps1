@@ -27,6 +27,13 @@ Get-ChildItem ./JSON | ForEach-Object {
 	((Get-Content -Path $_ -Raw) -replace '&#039;',"'") | Set-Content -Path $_
 	((Get-Content -Path $_ -Raw) -replace '&amp;',"&") | Set-Content -Path $_
 	((Get-Content -Path $_ -Raw) -replace '&#x60;',"``") | Set-Content -Path $_
+	((Get-Content -Path $_ -Raw) -replace '&#8220;',"'") | Set-Content -Path $_
+	((Get-Content -Path $_ -Raw) -replace '&#8221;',"'") | Set-Content -Path $_
+	((Get-Content -Path $_ -Raw) -replace '&#8217;',"'") | Set-Content -Path $_
+	((Get-Content -Path $_ -Raw) -replace '&#8230;',"...") | Set-Content -Path $_
+	((Get-Content -Path $_ -Raw) -replace '&#8211;',"--") | Set-Content -Path $_
+
+	((Get-Content -Path $_ -Raw) -replace '&#038;',"&") | Set-Content -Path $_
 	
 	
 	((Get-Content -Path $_ -Raw) -replace '": ""','": null') | Set-Content -Path $_ # Replace empty string with null
@@ -35,5 +42,5 @@ Get-ChildItem ./JSON | ForEach-Object {
 	((Get-Content -Path $_ -Raw) -replace ' ",','",') | Set-Content -Path $_ # Space at the end of the string
 
 
-	& $mongoImport mongodb://localhost/Devotionals -c=Devotionals --type=JSON --jsonArray --file=$_
+	& $mongoImport mongodb://localhost/Devotionals -c=Devotionals --type=JSON --jsonArray --file=$_ --drop
 }
