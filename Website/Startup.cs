@@ -5,6 +5,10 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+
+using Website.Models;
+using Website.Services;
 
 namespace Website
 {
@@ -20,12 +24,16 @@ namespace Website
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-            // In production, the Angular files will be served from this directory
-            services.AddSpaStaticFiles(configuration =>
-            {
-                configuration.RootPath = "ClientApp/dist";
-            });
+            // requires using Microsoft.Extensions.Options
+            services.Configure<WebsiteDatabaseSettings>(
+                Configuration.GetSection(nameof(WebsiteDatabaseSettings)));
+
+            services.AddSingleton<IWebsiteDatabaseSettings>(sp =>
+                sp.GetRequiredService<IOptions<WebsiteDatabaseSettings>>().Value);
+
+            services.AddSingleton<WebsiteService>();
+
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

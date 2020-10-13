@@ -1,0 +1,6 @@
+Dotnet API and Mongo guide
+	https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-5.0&tabs=visual-studio-code
+
+Mongo Database tools documentation
+	https://docs.mongodb.com/database-tools/
+
