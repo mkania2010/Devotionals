@@ -4,3 +4,7 @@ Dotnet API and Mongo guide
 Mongo Database tools documentation
 	https://docs.mongodb.com/database-tools/
 
+Build Project
+dotnet publish ~/Documents/Github/Devotionals/Website \
+	--output ~/Documents/Github/Devotionals/Build --runtime ubuntu.20.04-x64 \
+	--self-contained true
