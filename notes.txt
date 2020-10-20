@@ -7,3 +7,6 @@ Mongo Database tools documentation
 Build Project
 dotnet publish ~/Documents/Github/Devotionals/API/DevoAPI.csproj \
 	--output ~/Documents/Github/Devotionals/Build/API
+
+run dotnet project on linux
+	https://www.c-sharpcorner.com/article/how-to-deploy-net-core-application-on-linux/

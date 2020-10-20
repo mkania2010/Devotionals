@@ -2,7 +2,13 @@
 if ($PSVersionTable.OS -like 'Darwin*') {
 	$baseFolder = '~/Documents/Github/Devotionals/Scraper/'
 	$jsonBase = $baseFolder + 'JSON/'
-	$mongoImport = $baseFolder + 'MongoDB-tools/macOS-mongodb-tools/mongoimport'
+	$mongoImport = $baseFolder + 'MongoDB-tools/macOS-tools/mongoimport'
+} elseif ($PSVersionTable.OS -like 'Linux*') {
+	$baseFolder = '/srv/Devotionals/Scraper/'
+	$jsonBase = $baseFolder + 'JSON/'
+	$mongoImport = $baseFolder + 'MongoDB-tools/ubuntu-tools/mongoimport'
+} else {
+	Exit;
 }
 
 # Declare the Devotional class
