@@ -1,6 +1,6 @@
 {
   "runtimeTarget": {
-    "name": "net5.0",
+    "name": ".NETCoreApp,Version=v5.0",
     "signature": ""
   },
   "compilationOptions": {
@@ -9,8 +9,7 @@
       "DEBUG",
       "NET",
       "NET5_0",
-      "NETCOREAPP",
-      "NETCOREAPP3_1"
+      "NETCOREAPP"
     ],
     "languageVersion": "9.0",
     "platform": "",
@@ -23,7 +22,7 @@
     "debugType": "portable"
   },
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v5.0": {
       "DevoAPI/1.0.0": {
         "dependencies": {
           "MongoDB.Driver": "2.11.3",
