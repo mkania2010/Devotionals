@@ -39,6 +39,7 @@ namespace DevoAPI
             services.AddSingleton<DevoAPIService>();
 
             services.AddControllers();
+            Console.WriteLine("Startup configure services finished");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -25,6 +25,7 @@ namespace DevoAPI.Controllers {
 		[HttpGet("{year:length(4)}", Name = "GetDevotional")]
 		[Route("api/devotionals/{year:datetime}")]
 		public ActionResult<List<Devotional>> Get(DateTime year) {
+			Console.WriteLine("Got a request");
 			// Create a list of devotionals from the database
 			var tempDevotionals = _devoAPIService.Get();
 			// Create an empty list to be returned

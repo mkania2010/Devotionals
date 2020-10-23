@@ -10,3 +10,11 @@ dotnet publish ~/Documents/Github/Devotionals/API/DevoAPI.csproj \
 
 run dotnet project on linux
 	https://www.c-sharpcorner.com/article/how-to-deploy-net-core-application-on-linux/
+
+Install MongoDB on Ubuntu
+	https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+Bind remote port to local
+	ssh {connectionInfo} -L 8888:localhost:27017
+
+tcpdump -nn -i eno1 'tcp and port 5001'
