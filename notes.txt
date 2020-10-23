@@ -18,3 +18,17 @@ Bind remote port to local
 	ssh {connectionInfo} -L 8888:localhost:27017
 
 tcpdump -nn -i eno1 'tcp and port 5001'
+
+
+[Unit]
+Description=DotNet API for teh Devotionals Website
+[Service]
+WorkingDirectory=/srv/Devotionals/Build/API
+ExecStart=/usr/bin/dotnet run srv/Devotionals/API/DevoAPI.csproj
+Restart=always
+RestartSec=10
+SyslogIdentifier=DevoAPI
+User=nginx
+Environment=ASPNETCORE_ENVIRONMENT=Production
+[Install]
+WantedBy=multi-user.target
