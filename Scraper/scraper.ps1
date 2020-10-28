@@ -259,9 +259,9 @@ function Provo_Scraper {
 # ------------------------------------------------------------------------ #
 
 # Call functions
-Provo_Scraper $jsonBase
-Idaho_Scraper $jsonBase
-Hawaii_Scraper $jsonBase
+# Provo_Scraper
+# Idaho_Scraper
+# Hawaii_Scraper
 
 $count = 1
 
