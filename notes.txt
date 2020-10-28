@@ -17,18 +17,61 @@ Install MongoDB on Ubuntu
 Bind remote port to local
 	ssh {connectionInfo} -L 8888:localhost:27017
 
-tcpdump -nn -i eno1 'tcp and port 5001'
+See all network traffic on port 5001 from interface eno1
+	tcpdump -nn -i eno1 'tcp and port 5001'
+	tcpdump -nn -i lo 'tcp and port 5001'
+
+Discard local changes to git repo and pull
+	git fetch
+	git reset --hard HEAD
+	git merge '@{u}'
+
+Update certs on Ubuntu server - must be run under the same user as the system process below specifies
+	dotnet dev-certs https --clean
+	dotnet dev-certs https
+	update-ca-certificates
+
+Run the API as a system service
+	vim /etc/systemd/system/DevoAPI.service
+	
+	[Unit]
+	Description=DotNet API for teh Devotionals Website
+	[Service]
+	WorkingDirectory=/srv/Devotionals/Build/API
+	ExecStart=/usr/bin/dotnet /srv/Devotionals/Build/API/DevoAPI.dll | systemd-cat -t DevoAPI
+	Restart=always
+	RestartSec=10
+	SyslogIdentifier=DevoAPI
+	User=bob
+	Environment=ASPNETCORE_ENVIRONMENT=Production
+	[Install]
+	WantedBy=multi-user.target
+
+NGINX config - useful site to test config: https://nginx.viraptor.info
+	server {
+		server_name api.thatsite.pw;
+		listen 443 ssl http2;
+
+		ssl_certificate /etc/ssl/localCerts/local.pem;
+		ssl_certificate_key /etc/ssl/localCerts/local.key;
+
+		error_log /var/log/nginx/api.error.log;
+		access_log /var/log/nginx/api.access.log;
+
+		location = / {
+			proxy_pass https://localhost:5001/api/devotionals;
+		}
+
+		location ~ "/([0-9]{4})" {
+			proxy_pass https://localhost:5001/api/devotionals/$1-1-1;
+		}
+
+		location ~ /\.ht {
+			deny all;
+		}
+	}
 
 
-[Unit]
-Description=DotNet API for teh Devotionals Website
-[Service]
-WorkingDirectory=/srv/Devotionals/Build/API
-ExecStart=/usr/bin/dotnet run srv/Devotionals/API/DevoAPI.csproj
-Restart=always
-RestartSec=10
-SyslogIdentifier=DevoAPI
-User=nginx
-Environment=ASPNETCORE_ENVIRONMENT=Production
-[Install]
-WantedBy=multi-user.target
+Crontab Entry for Scraper - runs every Thursday at 5:30 pm
+	30 17 * * 4 powershell -ExecutionPolicy ByPass -File "/srv/Devotionals/Scraper/scraper.ps1" | systemd-cat -t DevoAPI
+	0 */4 * * * systemctl restart DevoAPI

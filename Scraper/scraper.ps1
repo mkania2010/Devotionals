@@ -1,3 +1,5 @@
+Write-Host "Starting Devotional Scraper"
+
 # Sets directory for running on my local machine or web server
 if ($PSVersionTable.OS -like 'Darwin*') {
 	$baseFolder = '~/Documents/Github/Devotionals/Scraper/'
@@ -259,9 +261,14 @@ function Provo_Scraper {
 # ------------------------------------------------------------------------ #
 
 # Call functions
-# Provo_Scraper
-# Idaho_Scraper
-# Hawaii_Scraper
+Write-Host "Starting Provo"
+Provo_Scraper
+
+Write-Host "Starting Idaho"
+Idaho_Scraper
+
+Write-Host "Starting Hawaii"
+Hawaii_Scraper
 
 $count = 1
 
@@ -303,3 +310,5 @@ Get-ChildItem $jsonBase | ForEach-Object {
 
 	$count++
 }
+
+Write-Host "Finished Devotional Scraper"
