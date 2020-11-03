@@ -1,18 +1,28 @@
+*---------------------------------*
+		Documentation
+*---------------------------------*
 Dotnet API and Mongo guide
 	https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-5.0&tabs=visual-studio-code
 
 Mongo Database tools documentation
 	https://docs.mongodb.com/database-tools/
 
-Build Project
-dotnet publish ~/Documents/Github/Devotionals/API/DevoAPI.csproj \
-	--output ~/Documents/Github/Devotionals/Build/API
-
 run dotnet project on linux
 	https://www.c-sharpcorner.com/article/how-to-deploy-net-core-application-on-linux/
 
 Install MongoDB on Ubuntu
 	https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+
+
+*---------------------------------*
+		Useful Commands
+*---------------------------------*
+Build Project
+	dotnet publish ~/Documents/Github/Devotionals/API/DevoAPI.csproj \
+		--output ~/Documents/Github/Devotionals/Build/API
+
+	cd ~/Documents/Github/Devotionals/Website && ng build --outputPath=../Build/Website --prod
 
 Bind remote port to local
 	ssh {connectionInfo} -L 8888:localhost:27017
@@ -26,6 +36,11 @@ Discard local changes to git repo and pull
 	git reset --hard HEAD
 	git merge '@{u}'
 
+
+
+*---------------------------------*
+			Setup
+*---------------------------------*
 Update certs on Ubuntu server - must be run under the same user as the system process below specifies
 	dotnet dev-certs https --clean
 	dotnet dev-certs https
@@ -71,8 +86,8 @@ NGINX config - useful site to test config: https://nginx.viraptor.info
 		}
 	}
 
-
 Crontab Entry for Scraper - runs every Thursday at 5:30 pm
-	30 17 * * 4 powershell -ExecutionPolicy ByPass -File "/srv/Devotionals/Scraper/scraper.ps1" | systemd-cat -t DevoAPI
-	0 */4 * * * systemctl restart DevoAPI
-	*/2 * * * * curl https://api.thatsite.pw/1958
+	contab -e --- "contab -l" to list list entries
+		30 17 * * 4 powershell -ExecutionPolicy ByPass -File "/srv/Devotionals/Scraper/scraper.ps1" | systemd-cat -t DevoAPI
+		0 */4 * * * systemctl restart DevoAPI
+		*/2 * * * * curl https://api.thatsite.pw/1958
