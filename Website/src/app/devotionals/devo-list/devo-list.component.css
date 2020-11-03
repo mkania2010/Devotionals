@@ -1,0 +1,18 @@
+#panel-search {
+	border: solid 1px lightgray;
+	padding: 10px 0px 10px 35px;
+	border-radius: 5px;
+	/* margin-top: 120px; */
+	box-shadow: 5px 5px lightgray;
+	margin-bottom: 1em;
+  }
+  
+  #panel-list {
+	border: solid 1px lightgray;
+	padding: 10px 0px 10px 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px lightgray;
+	overflow-y:scroll; height: 80%;
+	overflow-x: hidden;
+  }
+  

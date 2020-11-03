@@ -1,1 +1,9 @@
-<p>devo-list works!</p>
+<!-- For the list of devotionals -->
+<div class="panel panel-default" id="panel-list">
+	<div class="panel-body">
+		<div id="devotionalList">
+			<app-devo-item *ngFor="let devotional of devotionals" [devotional]="devotional">Loading...</app-devo-item>
+		</div>
+	  </div>
+  </div>
+  
