@@ -33,6 +33,12 @@ namespace DevoAPI
             services.Configure<DatabaseSettings>(
                 Configuration.GetSection(nameof(DatabaseSettings)));
 
+            services.AddCors(o => o.AddPolicy("CorsPolicy", builder => {
+                builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+            }));
+
             services.AddSingleton<IDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
 
@@ -45,6 +51,8 @@ namespace DevoAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("CorsPolicy");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
