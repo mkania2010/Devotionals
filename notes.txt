@@ -75,3 +75,4 @@ NGINX config - useful site to test config: https://nginx.viraptor.info
 Crontab Entry for Scraper - runs every Thursday at 5:30 pm
 	30 17 * * 4 powershell -ExecutionPolicy ByPass -File "/srv/Devotionals/Scraper/scraper.ps1" | systemd-cat -t DevoAPI
 	0 */4 * * * systemctl restart DevoAPI
+	*/2 * * * * curl https://api.thatsite.pw/1958
