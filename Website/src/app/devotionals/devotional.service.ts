@@ -22,7 +22,7 @@ export class DevotionalService {
 	getDevotionals() {
 		return this.http.get<{ message: string, devotionals: Devotional[] }>
 		// ('https://localhost:5001/api/devotionals').subscribe(
-			('https://api.thatsite.pw/').subscribe(
+			('https://api.devotionals.xyz/').subscribe(
 				(devotionalData) => {
 					this.devotionals = JSON.parse(JSON.stringify(devotionalData));
 					this.sortAndSend();
@@ -35,7 +35,7 @@ export class DevotionalService {
 
 	getDevotionalsYear(devoYear: number) {
 		return this.http.get<{ message: string, devotionals: Devotional[] }>
-			(`https://api.thatsite.pw/${devoYear}`).subscribe(
+			(`https://api.devotionals.xyz/${devoYear}`).subscribe(
 				(devotionalData) => {
 					this.devotionals = JSON.parse(JSON.stringify(devotionalData));
 					this.sortAndSend();
