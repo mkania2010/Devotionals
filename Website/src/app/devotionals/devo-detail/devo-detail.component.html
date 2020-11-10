@@ -1,1 +1,40 @@
-<p>devo-detail works!</p>
+<div id="panel-detail" class="panel" *ngIf="devotional">
+	<div class="panel-heading">
+		<div class="row">
+		<h2 style="font-weight:bold;">{{ devotional?.devoName }}</h2>
+	</div>
+
+	<hr>
+
+	<div class="panel-body">
+		<p><b class="rightTab">Speaker:</b>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; {{ devotional?.author }}
+		</p>
+
+		<p *ngIf="devotional?.authorTitle"><b class="rightTab">Speaker Position:</b>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; {{ devotional?.authorTitle }}
+		</p>
+
+		<p><b class="rightTab">Date Given:</b>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; {{ devotional?.date | date : 'shortDate' }}
+		</p>
+
+		<p><b class="rightTab">Address Location:</b>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; BYU {{ devotional?.campus }}
+		</p>
+
+		<p *ngIf="devotional?.uri"><b class="rightTab">Transcript:</b>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ devotional?.uri }}">View the transcript</a>
+		</p>
+
+		<p *ngIf="devotional?.video_URI"><b class="rightTab">Video:</b>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ devotional?.video_URI }}">View the video recording</a>
+		</p>
+
+		<p *ngIf="devotional?.mP3_URI"><b class="rightTab">Audio:</b>
+			<br> <audio controls style="width: 100%;"> <source src="{{ devotional?.mP3_URI }}" type="audio/mpeg"> </audio>
+		</p>
+
+		</div>
+	</div>
+</div>

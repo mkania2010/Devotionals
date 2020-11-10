@@ -15,7 +15,7 @@ export class DevotionalService {
 	constructor(private http: HttpClient) {}
 
 	sortAndSend() {
-		this.devotionals.sort((a, b) => (a.Date < b.Date) ? 1 : ((b.Date < a.Date) ? -1 : 0 ));
+		this.devotionals.sort((a, b) => (a.date < b.date) ? 1 : ((b.date < a.date) ? -1 : 0 ));
 		this.devotionalListChangedEvent.next(this.devotionals.slice());
 	}
 

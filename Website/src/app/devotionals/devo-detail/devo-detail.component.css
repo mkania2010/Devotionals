@@ -1,0 +1,17 @@
+.rightTab {
+	padding-right: 1em;
+}
+
+p {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+#panel-detail {
+	border: solid 1px lightgray;
+	padding: 40px;
+	border-radius: 5px;
+	margin-top: 170px;
+	box-shadow: 5px 5px lightgray;
+	color: black;
+}

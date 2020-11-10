@@ -1,1 +1,11 @@
-<p>devo-item works!</p>
+<a class="list-group-item clearfix" [routerLink]="[devotional?.id]" routerLinkActive="active" >
+	<div class="pull-left">
+		<h4 class="list-group-item-heading">{{ devotional?.devoName }}</h4>
+		<h6>{{ devotional?.author}} &nbsp;|&nbsp; {{ devotional?.date | date:'shortDate' }} &nbsp;|&nbsp; {{ devotional?.campus }}
+		<!-- <a href="{{ devotional?.mP3_URI }}" download="devotional.mP3_URI" target="_blank" style="box-shadow: none;">
+			<button type="button" style="box-shadow:none;">Download Audio</button>
+			download audio
+		</a> -->
+		</h6>
+	</div>
+</a>

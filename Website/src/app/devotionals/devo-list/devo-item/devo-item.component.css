@@ -1,0 +1,17 @@
+a {
+	margin-bottom: 1em !important;
+	margin-left: 15px;
+	box-shadow: 5px 5px lightgray;
+	color: black;
+	width: 92%;
+}
+
+a:hover {
+	background-color:rgb(0, 118, 182) ;
+	color: white !important;
+	text-decoration: none;
+}
+
+.list-group-item.active {
+	background-color:rgb(0, 118, 182) !important;
+}
