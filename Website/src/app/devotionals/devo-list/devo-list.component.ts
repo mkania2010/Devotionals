@@ -18,7 +18,7 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	constructor(private devotionalService: DevotionalService) {}
 
 	ngOnInit(): void {
-		console.log((new Date()).getFullYear());
+		// Gets devotionals from the current year on startup
 		this.devotionalService.getDevotionalsYear((new Date()).getFullYear());
 
 		this.subscription = this.devotionalService.devotionalListChangedEvent

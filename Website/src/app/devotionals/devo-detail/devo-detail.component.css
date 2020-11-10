@@ -12,6 +12,6 @@ p {
 	padding: 40px;
 	border-radius: 5px;
 	margin-top: 170px;
-	box-shadow: 5px 5px lightgray;
+	box-shadow: 5px 5px 15px lightgray inset;
 	color: black;
 }

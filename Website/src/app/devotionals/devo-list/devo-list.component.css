@@ -11,7 +11,7 @@
 	border: solid 1px lightgray;
 	padding: 10px 0px 10px 10px;
 	border-radius: 5px;
-	box-shadow: 5px 5px lightgray;
+	box-shadow: 5px 5px 15px lightgray inset;
 	overflow-y:scroll; height: 100%;
 	overflow-x: hidden;
 }
