@@ -1,9 +1,22 @@
-<!-- For the list of devotionals -->
-<div class="panel panel-default" id="panel-list">
-	<div class="panel-body">
-		<div id="devotionalList">
-			<app-devo-item *ngFor="let devotional of devotionals" [devotional]="devotional">Loading...</app-devo-item>
+
+<!-- The filter menu -->
+<div class="col-md-4">
+	<div class="panel panel-default" id="panel-search">
+		<div class="panel-body">
+			<p>Filter Coming soon!</p>
+			<hr>
 		</div>
-	  </div>
-  </div>
-  
+	</div>
+</div>
+
+
+<!-- The list of devotionals -->
+<div class="col-md-8" style="height: 95vh;">
+	<div class="panel panel-default" id="panel-list">
+		<div class="panel-body">
+			<div id="devotionalList">
+				<app-devo-item *ngFor="let devotional of devotionals" [devotional]="devotional">Loading...</app-devo-item>
+			</div>
+		</div>
+	</div>
+</div>

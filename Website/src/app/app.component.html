@@ -1,13 +1,15 @@
 <app-nav-menu></app-nav-menu>
 
-<div class="container">
+<div class="col-md-1"></div>
+
+<div class="container col-md-10">
 	<div class="row">
-		<div class="col-md-7" style="height: 1000px;">
-		<!-- <div class="col-md-7" style="height: 90vmax;"> -->
+		<div class="col-md-8">
 				<!-- For the devotional list component -->
 				<app-devo-list></app-devo-list>
 		</div>
-		<div class="col-md-5">
+		<div class="col-md-4" style="margin-left: -1em;">
+			<!-- For the devotional detail component -->
 			<router-outlet></router-outlet>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 <div id="panel-detail" class="panel" *ngIf="devotional">
 	<div class="panel-heading">
 		<div class="row">
-		<h2 style="font-weight:bold;">{{ devotional?.devoName }}</h2>
+		<h3 style="font-weight:bold;">{{ devotional?.devoName }}</h3>
 	</div>
 
 	<hr style="color: black;">
@@ -16,7 +16,7 @@
 		</p>
 
 		<p><b class="rightTab">Date Given:</b>
-			<br>&nbsp;&nbsp;&nbsp;&nbsp; {{ devotional?.date | date : 'shortDate' }}
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; {{ devotional?.date | slice: 0:10 | date : 'shortDate' }}
 		</p>
 
 		<p><b class="rightTab">Address Location:</b>
