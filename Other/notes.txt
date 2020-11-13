@@ -1,0 +1,47 @@
+*---------------------------------*
+		Things to do
+*---------------------------------*
+- Open links in new tab
+- Finish filters
+- fix MP3 loading issue
+- load detail after list
+
+
+
+*---------------------------------*
+		Documentation
+*---------------------------------*
+Dotnet API and Mongo guide
+	https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-5.0&tabs=visual-studio-code
+
+Mongo Database tools documentation
+	https://docs.mongodb.com/database-tools/
+
+run dotnet project on linux
+	https://www.c-sharpcorner.com/article/how-to-deploy-net-core-application-on-linux/
+
+Install MongoDB on Ubuntu
+	https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+
+
+*---------------------------------*
+		Useful Commands
+*---------------------------------*
+Build Project
+	dotnet publish ~/Documents/Github/Devotionals/API/DevoAPI.csproj \
+		--output ~/Documents/Github/Devotionals/Build/API
+
+	cd ~/Documents/Github/Devotionals/Website && ng build --outputPath=../Build/Website --prod
+
+Bind remote port to local
+	ssh {connectionInfo} -L 8888:localhost:27017
+
+See all network traffic on port 5001 from interface eno1
+	tcpdump -nn -i eno1 'tcp and port 5001'
+	tcpdump -nn -i lo 'tcp and port 5001'
+
+Discard local changes to git repo and pull
+	git fetch
+	git reset --hard HEAD
+	git merge '@{u}'

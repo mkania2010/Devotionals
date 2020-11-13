@@ -1,0 +1,30 @@
+*---------------------------------*
+			Setup
+*---------------------------------*
+Install dotnet core 5, powershell core, mongod
+
+clone repo to /srv - end path should be /srv/Devotionals
+
+Update dotnet certs on Ubuntu server
+** The user running the dotnet certs and the user in the service file on line 10 must be the same (preferably not root) **
+	su {user}
+	dotnet dev-certs https --clean
+	dotnet dev-certs https
+	update-ca-certificates
+
+Run the API as a system service
+** The user running the dotnet certs and the user in the service file on line 10 must be the same (preferably not root) **
+	sudo cp /srv/Devotionals/Other/DevoAPI.service /etc/systemd/system/DevoAPI.service
+	sudo systemctl start DevoAPI.service
+	sudo systemctl enable DevoAPI.service
+
+Copy NGINX config
+	sudo cp /srv/Devotionals/Other/nginxDevoAPI.conf /etc/nginx/conf.d/nginxDevoAPI.conf
+
+Crontab Entry for Scraper - runs every Thursday at 5:30 pm
+	"contab -e" --- "contab -l" to list list entries
+		30 17 * * 4 /snap/bin/powershell -ExecutionPolicy ByPass -File "/srv/Devotionals/Scraper/scraper.ps1" > /srv/Devotionals/Scraper/JSON/scraperLog.txt
+		*/2 * * * * /usr/bin/curl https://api.devotionals.xyz/1958
+
+Optionally remove github push
+	Comment out lines 315-317 of scraper.ps1

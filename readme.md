@@ -4,3 +4,5 @@ The project can *soon* be found at [https://www.devotionals.xyz](https://www.dev
 
 The API is available at [https://api.devotionals.xyz](https://api.devotionals.xyz)
 	A four didgit year can be added to the URI in order to filter for that year - eg [https://api.devotionals.xyz/2019](https://api.devotionals.xyz/2019)
+
+Find notes and other documents in /Other/
