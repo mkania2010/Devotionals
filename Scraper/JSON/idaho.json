@@ -505,7 +505,7 @@
     "AuthorTitle": "BYU-Idaho President",
     "Date": "2020-09-15T00:00:00",
     "Campus": "Idaho",
-    "URI": null,
+    "URI": "https://www.byui.edu/devotionals/president-eyring-fall-2020",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-15_ElderEyring.mp3",
     "Video_URI": "https://video.byui.edu/media/President+Henry+J.+Eyring+-+%E2%80%9CWe+Are+All+Enlisted%E2%80%9D/1_izn3wq34"
   },
@@ -515,7 +515,7 @@
     "AuthorTitle": null,
     "Date": "2020-09-15T00:00:00",
     "Campus": "Idaho",
-    "URI": null,
+    "URI": "https://www.byui.edu/devotionals/sister-eyring-fall-2020",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-15_SisEyring_DV.mp3",
     "Video_URI": "https://video.byui.edu/media/Kelly+Eyring-+%22Hello+Again%22/1_0elbta4h/147052562"
   },
@@ -528,6 +528,96 @@
     "URI": "https://www.byui.edu/devotionals/elder-randy-d-funk",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2020-09-22_Devo_Funk_ENG.mp3",
     "Video_URI": "https://video.byui.edu/media/Elder+Randy+D.+Funk+and+Sister+Andrea+Funk/1_d5ftuz9r"
+  },
+  {
+    "DevoName": "Make Christ the Center of Your Life",
+    "Author": "Peter Williams",
+    "AuthorTitle": null,
+    "Date": "2020-09-29T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/peter-williams",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/DevoPeterWilliams_29Sep2020_ENG.mp3",
+    "Video_URI": "https://video.byui.edu/media/Peter+Williams+-+%22Make+Christ+the+Center+of+Your+Life%22/1_l6kk9z6f"
+  },
+  {
+    "DevoName": "Service Soothes Suffering",
+    "Author": "Roger Adams",
+    "AuthorTitle": "Senior Software Engineer",
+    "Date": "2020-10-06T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu//devotionals/roger-adams",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/DevoRogerAdams_06Oct2020_ENG.mp3",
+    "Video_URI": "https://video.byui.edu/media/Roger+Adams+-+%22Service+Soothes+Suffering%22/1_7zeauyz6/147052562"
+  },
+  {
+    "DevoName": "Visitors Welcome",
+    "Author": "Jerrod Guddat",
+    "AuthorTitle": "BYU-Idaho Support Center Director",
+    "Date": "2020-10-13T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/jerrod-guddat",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/13_10_2020_Devo.mp3",
+    "Video_URI": "https://video.byui.edu/media/Jerrod+Guddat+-+%22%E2%80%9CVisitors+Welcome%E2%80%9D+/1_j7cqo4l7/11602882"
+  },
+  {
+    "DevoName": "How to Find Your Dream and Then Achieve It",
+    "Author": "Phil Carmack",
+    "AuthorTitle": "Google Vice President and General Manager",
+    "Date": "2020-10-15T00:00:00",
+    "Campus": "Idaho",
+    "URI": null,
+    "MP3_URI": null,
+    "Video_URI": "https://video.byui.edu/media/1_sgb85y3w"
+  },
+  {
+    "DevoName": "Things expedient to Understand",
+    "Author": "Gerrit W. Gong",
+    "AuthorTitle": "Quorum of the Twelve Apostles",
+    "Date": "2020-10-20T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/elder-gerrit-w-gong",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/22_10_2020_Devo.mp3",
+    "Video_URI": "https://video.byui.edu/media/Gerrit%20W.%20Gong%20-%20%E2%80%9CThings%20Expedient%20to%20Understand%E2%80%9D/1_28o9xv8t"
+  },
+  {
+    "DevoName": "He Knows You!",
+    "Author": "Michael Lewis",
+    "AuthorTitle": "Photography Coordinator",
+    "Date": "2020-10-27T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/michael-lewis",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/27_10_2020_Devo.mp3",
+    "Video_URI": "https://video.byui.edu/media/Michael+Lewis+-+%22He+Knows+You%21%22/1_hkzg6txd"
+  },
+  {
+    "DevoName": "Keep Singing!",
+    "Author": "Randall Kempton",
+    "AuthorTitle": "Music Faculty Member",
+    "Date": "2020-11-03T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/randall-kempton",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/03_11_2020_Devo.mp3",
+    "Video_URI": "https://video.byui.edu/media/Randall+Kempton+-+%E2%80%9CKeep+Singing%21%E2%80%9D+/1_bi5y9mhl"
+  },
+  {
+    "DevoName": "Oh Say, What is Truth",
+    "Author": "Steven J. Lund",
+    "AuthorTitle": "Young Men General President",
+    "Date": "2020-11-10T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/brother-steven-j-lund",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Come Unto Zion",
+    "Author": "Kalleen Lund",
+    "AuthorTitle": null,
+    "Date": "2020-11-10T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/sister-kalleen-lund",
+    "MP3_URI": null,
+    "Video_URI": null
   },
   {
     "DevoName": "Writing in the Stars",
@@ -6415,7 +6505,7 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2011-12-16T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2011_12_16_Cook.htm",
+    "URI": "https://www.byui.edu/devotionals/Elder-Quentin-L-Cook-Graduation-2011",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3//Commencements/2011_12_17_GC_Cook.mp3",
     "Video_URI": null
   },
@@ -6615,7 +6705,7 @@
     "AuthorTitle": "Presidency of the Seventy",
     "Date": "2010-04-10T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2010_04_10_Jensen.htm",
+    "URI": "https://www.byui.edu/devotionals/Elder-Jay-E-Jensen-graduation-2010",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2010_04_10_GC_Jensen.mp3",
     "Video_URI": null
   },
@@ -6805,7 +6895,7 @@
     "AuthorTitle": "President of BYU-Idaho",
     "Date": "2010-07-29T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/EducationWeek/2010_07_29_Clark.htm",
+    "URI": "https://www.byui.edu/devotionals/elder-kim-b-clark-summer-2010",
     "MP3_URI": null,
     "Video_URI": "http://www.byui.edu/devotionalplayer/BYUIplayer.html?StartCue=87&EndCue=1764&VideoName=BYUI_devo1127_Clark_Devo&VideoType=devotionals"
   },
@@ -6815,7 +6905,7 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2010-07-30T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/EducationWeek/2010_07_30_Bednar.htm",
+    "URI": "https://www.byui.edu/devotionals/elder-david-a-bednar-summer-2010",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/EdWeek/2010_07_30_EW_Bednar.mp3",
     "Video_URI": "http://www.byui.edu/devotionalplayer/BYUIplayer.html?StartCue=407&EndCue=2439&VideoName=BYUI_devo1128_Bednar_Devo&VideoType=devotionals"
   },
@@ -7030,16 +7120,6 @@
     "Video_URI": "http://www.byui.edu/devotionals/dennis-tolman"
   },
   {
-    "DevoName": "Wait Upon the Lord",
-    "Author": "David A. Bednar",
-    "AuthorTitle": "Quorum of the Twelve Apostles",
-    "Date": "2010-12-17T00:00:00",
-    "Campus": "Idaho",
-    "URI": "https://www.byui.edu/speeches/elder-david-a-bednar",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
     "DevoName": "Leaders Worthy of Emulation",
     "Author": "Russell M. Nelson",
     "AuthorTitle": "Quorum of the Twelve Apostles",
@@ -7075,7 +7155,7 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2010-12-17T00:00:00",
     "Campus": "Idaho",
-    "URI": null,
+    "URI": "https://www.byui.edu/speeches/elder-david-a-bednar",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/DedicationBadnar_17Dec2010_ENG.mp3",
     "Video_URI": null
   },
@@ -7105,7 +7185,7 @@
     "AuthorTitle": "First Quorum of the Seventy",
     "Date": "2010-12-18T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2010_12_18_Jensen.htm",
+    "URI": "https://www.byui.edu/devotionals/Elder-Jay-E-Jensen-grad-2010",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -7855,8 +7935,8 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2008-04-11T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2008_04_11_Ballard.htm",
-    "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2008_04_11_APR_Ballard_GradCommencement.mp3",
+    "URI": "http://www.byui.edu/devotionals/Elder-M-Russell-Ballard-Winter-2008",
+    "MP3_URI": null,
     "Video_URI": null
   },
   {
@@ -7875,7 +7955,7 @@
     "AuthorTitle": "President of BYU-Idaho",
     "Date": "2008-04-11T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2008_04_11_Clark.htm",
+    "URI": "https://www.byui.edu/devotionals/President-Kim-B-Clark-Graduation-2008",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2008_04_11_APR_Clark_GradCommencement.mp3",
     "Video_URI": null
   },
@@ -8025,7 +8105,7 @@
     "AuthorTitle": "President of BYU-Idaho",
     "Date": "2008-07-18T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2008_07_18_Clark.htm",
+    "URI": "https://www.byui.edu/devotionals/President-Kim-B-Clark-grad-2008",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2008_07_18_APR_Clark_GradCommencement.mp3",
     "Video_URI": null
   },
@@ -8035,8 +8115,8 @@
     "AuthorTitle": "Secretary to the Board of Trustees",
     "Date": "2008-07-18T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2008_07_18_Christensen.htm",
-    "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2008_07_18_APR_Christensen_GradCommencement.mp3",
+    "URI": "https://www.byui.edu/devotionals/Brother-Roger-G-Christensen-winter-2008",
+    "MP3_URI": null,
     "Video_URI": null
   },
   {
@@ -8045,7 +8125,7 @@
     "AuthorTitle": "Relief Society General President",
     "Date": "2008-07-18T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2008_07_18_Beck.htm",
+    "URI": "https://www.byui.edu/devotionals/Sister-Julie-B-Beck-winter-2008",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2008_07_18_APR_Beck_GradCommencement.mp3",
     "Video_URI": null
   },
@@ -9530,7 +9610,7 @@
     "Video_URI": "http://www.byui.edu/devotionals/Brother-Mark-H-Willes"
   },
   {
-    "DevoName": "Power to Become Sons and Daughters of God",
+    "DevoName": "Power to Become Sons and Daughters of God ",
     "Author": "Kevin Brower",
     "AuthorTitle": "BYU-Idaho Music Department Faculty",
     "Date": "2005-03-29T00:00:00",
@@ -10151,7 +10231,7 @@
   },
   {
     "DevoName": "True Blue, Through and Through",
-    "Author": "Sheri L. Dew",
+    "Author": "Sister Sheri L. Dew",
     "AuthorTitle": "Former General Relief Society Presidency",
     "Date": "2004-03-16T00:00:00",
     "Campus": "Idaho",
@@ -10520,7 +10600,7 @@
     "Video_URI": "https://www.byui.edu/devotionals/brother-truman-g-madsen-2004"
   },
   {
-    "DevoName": "The Choice",
+    "DevoName": "The Choice ",
     "Author": "Susan Easton Black",
     "AuthorTitle": "Professor of Church History and Doctrine at BYU",
     "Date": "2004-11-02T00:00:00",
@@ -19630,7 +19710,7 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Choose a More Excellent Way",
+    "DevoName": "Choose a More Excellent Way ",
     "Author": "Charles M. Grant",
     "AuthorTitle": "Head Football Coach at Ricks College",
     "Date": "1984-09-25T00:00:00",
@@ -19640,7 +19720,7 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Choose a More Excellent Way",
+    "DevoName": "Choose a More Excellent Way ",
     "Author": "G. Grant",
     "AuthorTitle": null,
     "Date": "1984-09-25T00:00:00",
@@ -23490,5 +23570,4 @@
     "Video_URI": null
   }
 ]
-
 
