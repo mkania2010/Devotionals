@@ -3640,6 +3640,96 @@
     "Video_URI": null
   },
   {
+    "DevoName": "Lessons I Have Learned from the Ten Prophets I Have Known Personally",
+    "Author": "Quinn McKay",
+    "AuthorTitle": null,
+    "Date": "2010-02-09T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/lessons-i-have-learned-from-the-ten-prophets-i-have-known-personally",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "No More '-ites': Becoming Personal Peacemakers, Becoming One in Christ",
+    "Author": "Liz Shropshire",
+    "AuthorTitle": null,
+    "Date": "2010-02-02T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/no-more-ites-becoming-personal-peacemakers-becoming-one-in-christ",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Hyrum Smith: An Example of Faithfulness",
+    "Author": "Jeff O'Driscoll",
+    "AuthorTitle": null,
+    "Date": "2010-01-26T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/hyrum-smith-an-example-of-faithfulness",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Question: Are you going to the Party?",
+    "Author": "David B. Thomas",
+    "AuthorTitle": null,
+    "Date": "2010-01-19T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/question-are-you-going-to-the-party",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Integrity: Honoring Our Word",
+    "Author": "Steven C. Wheelwright",
+    "AuthorTitle": null,
+    "Date": "2010-01-12T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/integrity-honoring-our-word",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "The Gifts of the Season: Songs and Stories of Christmas",
+    "Author": "BYU–Hawaii Fine Arts Department",
+    "AuthorTitle": null,
+    "Date": "2009-12-08T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/the-gifts-of-the-season-songs-and-stories-of-christmas",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Keeping Our Eyes on Eternity with His Help",
+    "Author": "Jean A. Tefan",
+    "AuthorTitle": null,
+    "Date": "2009-12-01T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/keeping-our-eyes-on-eternity-with-his-help",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "You will Lead; Learn to Obey",
+    "Author": "Craig Earnshaw",
+    "AuthorTitle": null,
+    "Date": "2009-11-24T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/you-will-lead-learn-to-obey",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "He Inviteth All to Come unto Him and Partake of His Goodness",
+    "Author": "Keith Lane",
+    "AuthorTitle": null,
+    "Date": "2009-11-17T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/devotionals/he-inviteth-all-to-come-unto-him-and-partake-of-his-goodness",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
     "DevoName": "The Spirit Said unto Me: Look!",
     "Author": "Anthony D. Perkins",
     "AuthorTitle": null,
@@ -4311,7 +4401,7 @@
   },
   {
     "DevoName": "Charles W. H. Goo, Lynn Henderickson, Frank Kalama",
-    "Author": null,
+    "Author": "Kent Brown",
     "AuthorTitle": null,
     "Date": "1992-06-11T00:00:00",
     "Campus": "Hawaii",
@@ -4321,7 +4411,7 @@
   },
   {
     "DevoName": "Kent Brown",
-    "Author": "Kent Brown",
+    "Author": "James M. Paramore",
     "AuthorTitle": null,
     "Date": "1992-05-19T00:00:00",
     "Campus": "Hawaii",
@@ -4331,7 +4421,7 @@
   },
   {
     "DevoName": "James M. Paramore & Russell M. Nelson",
-    "Author": "James M. Paramore",
+    "Author": "Dan W. Anderson",
     "AuthorTitle": null,
     "Date": "1992-05-14T00:00:00",
     "Campus": "Hawaii",
@@ -4341,7 +4431,7 @@
   },
   {
     "DevoName": "Dan W. Anderson",
-    "Author": "Dan W. Anderson",
+    "Author": null,
     "AuthorTitle": null,
     "Date": "1992-04-09T00:00:00",
     "Campus": "Hawaii",
@@ -4551,9 +4641,9 @@
   },
   {
     "DevoName": "PCC China Tour",
-    "Author": "B. Go",
+    "Author": "Lucille F. Johnson",
     "AuthorTitle": null,
-    "Date": "1990-10-04T00:00:00",
+    "Date": "1990-10-18T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotionals/pcc-china-tour",
     "MP3_URI": null,
@@ -4561,9 +4651,9 @@
   },
   {
     "DevoName": "Crime Prevention",
-    "Author": "Dave Del Rosario",
+    "Author": "B. Go",
     "AuthorTitle": null,
-    "Date": "1990-09-27T00:00:00",
+    "Date": "1990-10-04T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotionals/crime-prevention",
     "MP3_URI": null,
@@ -4571,9 +4661,9 @@
   },
   {
     "DevoName": "ASBYUH Officers Devotional",
-    "Author": "Anne Workman",
+    "Author": "Dave Del Rosario",
     "AuthorTitle": null,
-    "Date": "1990-09-20T00:00:00",
+    "Date": "1990-09-27T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/devotionals/asbyuh-officers-devotional",
     "MP3_URI": null,
@@ -4931,7 +5021,7 @@
   },
   {
     "DevoName": "Frank M. Bradshaw Devotional",
-    "Author": "Lewis T. Patterson",
+    "Author": null,
     "AuthorTitle": null,
     "Date": "1988-03-17T00:00:00",
     "Campus": "Hawaii",
@@ -4941,7 +5031,7 @@
   },
   {
     "DevoName": "Lewis T. Patterson Devotional",
-    "Author": "Carolyn J. Rasmus",
+    "Author": "Lewis T. Patterson",
     "AuthorTitle": null,
     "Date": "1988-03-03T00:00:00",
     "Campus": "Hawaii",
@@ -4951,7 +5041,7 @@
   },
   {
     "DevoName": "Carolyn J. Rasmus Devotional",
-    "Author": "Neal A. Maxwell",
+    "Author": "Carolyn J. Rasmus",
     "AuthorTitle": null,
     "Date": "1988-02-18T00:00:00",
     "Campus": "Hawaii",
@@ -4961,7 +5051,7 @@
   },
   {
     "DevoName": "Neal A. Maxwell Devotional",
-    "Author": "Lanier Britsch",
+    "Author": "Neal A. Maxwell",
     "AuthorTitle": null,
     "Date": "1988-02-09T00:00:00",
     "Campus": "Hawaii",
@@ -4971,7 +5061,7 @@
   },
   {
     "DevoName": "Lanier Britsch",
-    "Author": "L. Tom Perry",
+    "Author": "Lanier Britsch",
     "AuthorTitle": null,
     "Date": "1988-02-02T00:00:00",
     "Campus": "Hawaii",
@@ -4981,7 +5071,7 @@
   },
   {
     "DevoName": "L. Tom Perry Devotional",
-    "Author": "Thomas S. Monson",
+    "Author": "L. Tom Perry",
     "AuthorTitle": null,
     "Date": "1988-01-28T00:00:00",
     "Campus": "Hawaii",
@@ -4991,7 +5081,7 @@
   },
   {
     "DevoName": "Thomas S. Monson Devotional",
-    "Author": "Terrance Olsen",
+    "Author": "Thomas S. Monson",
     "AuthorTitle": null,
     "Date": "1988-01-07T00:00:00",
     "Campus": "Hawaii",
@@ -5001,7 +5091,7 @@
   },
   {
     "DevoName": "Terrance Olsen Devotional",
-    "Author": "Arthur Haycock",
+    "Author": "Terrance Olsen",
     "AuthorTitle": null,
     "Date": "1987-11-19T00:00:00",
     "Campus": "Hawaii",
@@ -5011,7 +5101,7 @@
   },
   {
     "DevoName": "Arthur D. Haycock Devotional",
-    "Author": "Lanier Britsch",
+    "Author": "Arthur Haycock",
     "AuthorTitle": null,
     "Date": "1987-11-05T00:00:00",
     "Campus": "Hawaii",
@@ -5021,7 +5111,7 @@
   },
   {
     "DevoName": "R. Lanier Britsch Devotional",
-    "Author": null,
+    "Author": "Lanier Britsch",
     "AuthorTitle": null,
     "Date": "1987-10-22T00:00:00",
     "Campus": "Hawaii",
@@ -5141,7 +5231,7 @@
   },
   {
     "DevoName": "Mark McConkie Devotional",
-    "Author": null,
+    "Author": "John H. Groberg",
     "AuthorTitle": null,
     "Date": "1986-10-17T00:00:00",
     "Campus": "Hawaii",
@@ -5151,7 +5241,7 @@
   },
   {
     "DevoName": "John H. Groberg 1986 Devotional",
-    "Author": "John H. Groberg",
+    "Author": "Victor Cline",
     "AuthorTitle": null,
     "Date": "1986-10-10T00:00:00",
     "Campus": "Hawaii",
@@ -5161,7 +5251,7 @@
   },
   {
     "DevoName": "Victor Cline Devotional",
-    "Author": "Victor Cline",
+    "Author": "Arthur Haycock",
     "AuthorTitle": null,
     "Date": "1986-09-24T00:00:00",
     "Campus": "Hawaii",
@@ -5171,7 +5261,7 @@
   },
   {
     "DevoName": "Arthur Haycock Devotional",
-    "Author": "Arthur Haycock",
+    "Author": null,
     "AuthorTitle": null,
     "Date": "1986-09-14T00:00:00",
     "Campus": "Hawaii",
@@ -6260,12 +6350,12 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Trust in the Lord",
-    "Author": "Julie B. Beck",
+    "DevoName": "E Lilo Kākou i Mau Alaka'i me Ke Aloha E Pono Ai: We Need to Become Leaders with Aloha",
+    "Author": "Sarah Marie Puananimaikalani Maneha",
     "AuthorTitle": null,
-    "Date": "2009-12-17T00:00:00",
+    "Date": "2009-12-18T00:00:00",
     "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/commencement/trust-in-the-lord",
+    "URI": "https://speeches.byuh.edu/commencement/e-lilo-ka-kou-i-mau-alakai-me-ke-aloha-e-pono-ai-we-need-to-become-leaders-with-aloha",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -6273,19 +6363,9 @@
     "DevoName": "It's What You Can Give",
     "Author": "Roger G. Christensen",
     "AuthorTitle": null,
-    "Date": "2009-12-17T00:00:00",
+    "Date": "2009-12-18T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/commencement/its-what-you-can-give",
-    "MP3_URI": null,
-    "Video_URI": null
-  },
-  {
-    "DevoName": "E Lilo Kākou i Mau Alaka'i me Ke Aloha E Pono Ai: We Need to Become Leaders with Aloha",
-    "Author": "Sarah Marie Puananimaikalani Maneha",
-    "AuthorTitle": null,
-    "Date": "2009-12-17T00:00:00",
-    "Campus": "Hawaii",
-    "URI": "https://speeches.byuh.edu/commencement/e-lilo-ka-kou-i-mau-alakai-me-ke-aloha-e-pono-ai-we-need-to-become-leaders-with-aloha",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -6293,9 +6373,19 @@
     "DevoName": "Honesty and Integrity",
     "Author": "Steven C. Wheelwright",
     "AuthorTitle": null,
-    "Date": "2009-12-17T00:00:00",
+    "Date": "2009-12-18T00:00:00",
     "Campus": "Hawaii",
     "URI": "https://speeches.byuh.edu/commencement/honesty-and-integrity",
+    "MP3_URI": null,
+    "Video_URI": null
+  },
+  {
+    "DevoName": "Trust in the Lord",
+    "Author": "Julie B. Beck",
+    "AuthorTitle": null,
+    "Date": "2009-12-18T00:00:00",
+    "Campus": "Hawaii",
+    "URI": "https://speeches.byuh.edu/commencement/trust-in-the-lord",
     "MP3_URI": null,
     "Video_URI": null
   },

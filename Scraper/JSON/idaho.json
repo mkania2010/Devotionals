@@ -3660,6 +3660,16 @@
     "Video_URI": null
   },
   {
+    "DevoName": "Let Your Light Shine",
+    "Author": "Robert C. Gay",
+    "AuthorTitle": "First Quorum of the Seventy",
+    "Date": "2015-04-10T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/Elder-Robert-C-Gay-2015",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/Graduation_RobertCGay _10Apr2015.mp3",
+    "Video_URI": null
+  },
+  {
     "DevoName": "Be Ready, Be Worthy, Be Willing",
     "Author": "Paul V. Johnson",
     "AuthorTitle": "Commissioner, Church Educational System",
@@ -3667,16 +3677,6 @@
     "Campus": "Idaho",
     "URI": "http://www.byui.edu/devotionals/elder-paul-v-johnson-winter-2015-graduation.htm",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/Graduation_PaulVJohnson_10Apr2015.mp3",
-    "Video_URI": null
-  },
-  {
-    "DevoName": "Let Your Light Shine",
-    "Author": "Robert C. Gay",
-    "AuthorTitle": "First Quorum of the Seventy",
-    "Date": "2015-04-10T00:00:00",
-    "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2015_04_10_Gay.htm",
-    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/Graduation_RobertCGay _10Apr2015.mp3",
     "Video_URI": null
   },
   {
@@ -3870,6 +3870,16 @@
     "Video_URI": "https://video.byui.edu/media/Brian+Howard+%E2%80%9CThe+Role+of+Media+in+Hastening+the+Work%E2%80%9D/0_xieuxi9a"
   },
   {
+    "DevoName": "Eternal Learning",
+    "Author": "Jane Clayson Johnson",
+    "AuthorTitle": null,
+    "Date": "2015-07-30T00:00:00",
+    "Campus": "Idaho",
+    "URI": null,
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/EducationWeekDevotional_JaneClayson_07-30-15.mp3",
+    "Video_URI": "https://video.byui.edu/media/Jane+Clayson+Johnson+Education+Week+Address/0_z3z4fm8g/32573952"
+  },
+  {
     "DevoName": "Life’s Lesson from Liberty Jail",
     "Author": "Steve Davis",
     "AuthorTitle": null,
@@ -3888,16 +3898,6 @@
     "URI": "2015_07_23_Clark.htm",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/EducationWeekDevotional_07-30-2015_PresGilbert.mp3",
     "Video_URI": "https://video.byui.edu/media/Clark+G.+Gilbert+%E2%80%9CEducation+Week+2015+Remarks%E2%80%9D+/0_p546ff0b/32573952"
-  },
-  {
-    "DevoName": "Eternal Learning",
-    "Author": "Jane Clayson Johnson",
-    "AuthorTitle": null,
-    "Date": "2015-07-30T00:00:00",
-    "Campus": "Idaho",
-    "URI": null,
-    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/EducationWeekDevotional_JaneClayson_07-30-15.mp3",
-    "Video_URI": "https://video.byui.edu/media/Jane+Clayson+Johnson+Education+Week+Address/0_z3z4fm8g/32573952"
   },
   {
     "DevoName": "The Law of the Gospel",
@@ -5405,7 +5405,7 @@
     "AuthorTitle": "Assistant to the Commissioner, CES",
     "Date": "2013-12-20T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2013_12_20_Christensen.htm",
+    "URI": "https://www.byui.edu/devotionals/Brother-Roger-G-Christensen-2012",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/2013-12-20-Commencement-Christensen.mp3",
     "Video_URI": null
   },
@@ -5565,7 +5565,7 @@
     "AuthorTitle": "Quorum of the Twelve Apostles",
     "Date": "2012-04-06T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Graduation/2012_04_06_Ballard.htm",
+    "URI": "https://www.byui.edu/devotionals/Elder-M-Russell-Ballard-Spring-2012",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Commencements/2012_04_06_Commencement_Ballard.mp3",
     "Video_URI": "http://www2.byui.edu/DevotionalPlayer/BYUIplayer.html?StartCue=0&EndCue=1290&VideoName=2012_04_06_GC_Ballard"
   },
