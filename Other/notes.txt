@@ -1,9 +1,7 @@
 *---------------------------------*
 		Things to do
 *---------------------------------*
-- Open links in new tab
 - Finish filters
-- fix MP3 loading issue
 - load detail after list
 
 

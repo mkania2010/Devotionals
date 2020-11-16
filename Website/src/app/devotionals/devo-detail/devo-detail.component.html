@@ -1,3 +1,5 @@
+<div class="col-md-4" style="margin-left: -1em;">
+
 <div id="panel-detail" class="panel" *ngIf="devotional">
 	<div class="panel-heading">
 		<div class="row">
@@ -24,17 +26,19 @@
 		</p>
 
 		<p *ngIf="devotional?.uri"><b class="rightTab">Transcript:</b>
-			<br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ devotional?.uri }}">View the transcript</a>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ devotional?.uri }}" target="_blank">View the transcript</a>
 		</p>
 
 		<p *ngIf="devotional?.video_URI"><b class="rightTab">Video:</b>
-			<br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ devotional?.video_URI }}">View the video recording</a>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ devotional?.video_URI }}" target="_blank">View the video recording</a>
 		</p>
 
 		<p *ngIf="devotional?.mP3_URI"><b class="rightTab">Audio:</b>
-			<br> <audio controls style="width: 100%;"> <source src="{{ devotional?.mP3_URI }}" type="audio/mpeg"> </audio>
+			<br> <audio controls style="width: 100%;" src="{{ devotional?.mP3_URI }}" type="audio/mpeg"></audio>
 		</p>
 
 		</div>
 	</div>
+</div>
+
 </div>

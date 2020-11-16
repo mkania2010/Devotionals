@@ -1,0 +1,18 @@
+
+/* header {
+	background-color: rgb(0, 118, 182) !important;
+} */
+
+.nav {
+	background-color: rgb(0, 118, 182) !important;
+	color: white;
+	font-weight: bold;
+	height: 3em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	color: white;
+	padding-left: 2em;
+	margin-top: 8px;
+}
