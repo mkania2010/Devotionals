@@ -5,6 +5,8 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Devotional } from '../devotional.model';
 import { DevotionalService } from '../devotional.service';
 
+
+
 @Component({
 	selector: 'app-devo-list',
 	templateUrl: './devo-list.component.html',
@@ -23,10 +25,7 @@ export class DevoListComponent implements OnInit, OnDestroy {
 			(params: Params) => {
 				// Gets devotionals from the year specified in route
 				// tslint:disable-next-line: triple-equals
-				if (params.year != 1892 && params.year <= 1946)
-					this.router.navigate(['/']);
-				// tslint:disable-next-line: triple-equals
-				else if (params.year != 0)
+				if (params.year != 0)
 					this.devotionalService.getDevotionalsYear(params.year);
 				else
 					this.devotionalService.getDevotionals();
@@ -36,7 +35,8 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		this.subscription = this.devotionalService.devotionalListChangedEvent
 			.subscribe((devotionalList: Devotional[]) => {
 				this.devotionals = devotionalList;
-			});
+			}
+		);
 	}
 
 	ngOnDestroy(): void { this.subscription.unsubscribe(); }
