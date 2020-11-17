@@ -15,3 +15,8 @@ a:hover {
 .list-group-item.active {
 	background-color:rgb(0, 118, 182) !important;
 }
+
+/* Need to have because bootstrap */
+a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading {
+	color: inherit;
+}

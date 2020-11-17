@@ -1,6 +1,6 @@
 #panel-search {
 	border: solid 1px lightgray;
-	padding: 10px 0px 10px 35px;
+	padding: 10px 35px 10px 35px;
 	border-radius: 5px;
 	/* margin-top: 120px; */
 	box-shadow: 5px 5px 15px lightgray inset;
@@ -17,6 +17,18 @@
 	overflow-y:scroll; height: 100%;
 	overflow-x: hidden;
 }
+
+div > input {
+	width: 140% !important;
+}
+
+form > label {
+	padding-left: 1em;
+}
+
+
+
+
 
 
 

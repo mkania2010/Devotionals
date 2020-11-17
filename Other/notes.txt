@@ -1,12 +1,12 @@
 *---------------------------------*
 		Things to do
 *---------------------------------*
+- Add filter variables to url
+
 - Finish filters
-	- search talks or speakers
-	- specific campus
 	- sort Jan > Dec || Dec > Jan
 
-- load detail after list
+
 
 
 

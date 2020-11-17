@@ -19,6 +19,12 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	devotionals: Devotional[] = [];
 	loadingStatus = true;
 
+	// Variables for filter
+	devoName: string = null;
+	devoSpeaker: string = null;
+	devoCampus: string = null;
+
+
 	constructor(private devotionalService: DevotionalService, private router: Router, private route: ActivatedRoute) {}
 
 	ngOnInit(): void {
@@ -37,12 +43,9 @@ export class DevoListComponent implements OnInit, OnDestroy {
 			.subscribe((devotionalList: Devotional[]) => {
 				this.devotionals = devotionalList;
 				this.loadingStatus = false;
+				console.log(devotionalList.length);
 			}
 		);
-	}
-
-	loading(): void {
-		this.loadingStatus = !this.loadingStatus;
 	}
 
 	ngOnDestroy(): void { this.subscription.unsubscribe(); }
