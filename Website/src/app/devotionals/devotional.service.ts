@@ -28,7 +28,7 @@ export class DevotionalService {
 					this.sortAndSend();
 				},
 				(error: any) => {
-					console.log(error);
+					console.log('Full List error: ' + error);
 				}
 			);
 	}

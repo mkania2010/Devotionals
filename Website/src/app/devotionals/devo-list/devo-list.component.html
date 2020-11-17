@@ -4,29 +4,48 @@
 		<div class="panel panel-default" id="panel-search">
 			<div class="panel-body">
 				<!-- For the devo names -->
-				<div class="input-group row">  <input type="text" class="form-control" placeholder="Search for Devotional Name" #devoNameInput (keyup)="devoName = devoNameInput.value" />  </div>
+				<div class="input-group row">  <input type="text" class="form-control search" placeholder="Search by Devotional Name" #devoNameInput [(ngModel)]="devoName"/>  </div>
 
 				<!-- For the Speaker name -->
-				<div class="input-group row" style="padding-top: 1em;">  <input type="text" class="form-control" placeholder="Search for Speaker Name" #speakerNameInput (keyup)="devoSpeaker = speakerNameInput.value" />  </div>
+				<div class="input-group row" style="padding-top: 1em;">  <input type="text" class="form-control search" placeholder="Search by Speaker Name" #speakerNameInput [(ngModel)]="devoSpeaker"/>  </div>
 			
 				<hr>
+
+				<!-- Form for the Campus selector -->
 				<form>
-					<input type="radio" id="All" name="campus" value="null" (click)="devoCampus = null" checked>
-					<label for="All">All Campuses</label>	<br>
+					<input type="radio" id="all" name="campus" value="all" [(ngModel)]="devoCampus" checked>
+					<label for="all">All Campuses</label>	<br>
 					
-					<input type="radio" id="Provo" name="campus" value="Provo" (click)="devoCampus = 'Provo'">
+					<input type="radio" id="Provo" name="campus" value="Provo" [(ngModel)]="devoCampus">
 					<label for="Provo">Provo</label>	<br>
-					<input type="radio" id="Idaho" name="campus" value="Idaho" (click)="devoCampus = 'Idaho'">
+
+					<input type="radio" id="Idaho" name="campus" value="Idaho" [(ngModel)]="devoCampus">
 					<label for="Idaho">Idaho</label>	<br>
-					<input type="radio" id="Hawaii" name="campus" value="Hawaii" (click)="devoCampus = 'Hawaii'">
+
+					<input type="radio" id="Hawaii" name="campus" value="Hawaii" [(ngModel)]="devoCampus">
 					<label for="Hawaii">Hawaii</label>
 				</form>
+
 				<hr>
 
-				<!-- <div class="row" style="padding-top: .5em;">
-					<label for="devoYear" style="padding-left: 2.5em; padding-right: .5em; margin-top: 1.5px; margin-bottom: unset;">Devotional Year</label>
-					<select id="devoYear" #devoYearInput (change)="devoYear = devoYearInput.value">
+				<!-- Form for the Media type selector -->
+				<div class="input-group row" style="padding-left: 1.25em;">
+					<label>Type of Media Available</label>	<br>
+					
+					<input type="checkbox" id="audio" value="audio" [(ngModel)]="includeAudio"/>
+					<label for="audio" style="padding-left: 1em; padding-right: .25em; ">Audio</label>	<br>
+
+					<input type="checkbox" id="video" value="video" [(ngModel)]="includeVideo"/>
+					<label for="video" style="padding-left: 1em; padding-right: .25em; ">Video</label>	<br>
+				</div>
+
+				<hr>
+
+				<div class="row" style="padding-top: .5em;">
+					<label for="devoYear" style="padding-left: 1.25em;">Devotional Year</label>
+					<select id="devoYear" #devoYearInput (change)="changeYear(devoYearInput.value)">
 						<option value=0>All Years</option>
+						<option value="2020">2020</option>
 						<option value="2019">2019</option>
 						<option value="2018">2018</option>
 						<option value="2017">2017</option>
@@ -80,7 +99,11 @@
 						<option value="1957">1969</option>
 						<option value="1957">1957</option>
 					</select>
-				</div> -->
+				</div>
+
+				<hr>
+
+				<button type="button" (click)="clearFilters()">Clear Filters</button>
 
 			</div>
 		</div>
@@ -93,7 +116,7 @@
 			<div class="panel-body">
 				<div id="devotionalList">
 					<p>Count: {{ devotionals.length }} </p>
-					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus" [devotional]="devotional">Loading...</app-devo-item>
+					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus:includeVideo:includeAudio" [devotional]="devotional">Loading...</app-devo-item>
 					<div *ngIf="loadingStatus" class="loader">Loading...</div>
 				</div>
 			</div>

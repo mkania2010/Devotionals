@@ -6,13 +6,20 @@ import { Devotional } from './devotional.model';
 })
 export class DevotionalFilterPipe implements PipeTransform {
 
-	transform(devotionals: Devotional[], devoName: string, devoSpeaker: string, devoCampus: string) {
+	transform(
+		devotionals: Devotional[],
+		devoName: string,
+		devoSpeaker: string,
+		devoCampus: string,
+		includeVideo: boolean,
+		includeAudio: boolean) {
+
 
 		let filteredArray: Devotional[] = devotionals;
 		const emptyArray: Devotional[] = [];
 
 		if (devoName && devoName.length > 0) {
-			filteredArray = devotionals.filter(
+			filteredArray = filteredArray.filter(
 				(devotional: Devotional) =>
 					(
 						// Conditions for the devo to be added to the filtered list
@@ -23,7 +30,7 @@ export class DevotionalFilterPipe implements PipeTransform {
 		}
 
 		if (devoSpeaker && devoSpeaker.length > 0) {
-			filteredArray = devotionals.filter(
+			filteredArray = filteredArray.filter(
 				(devotional: Devotional) =>
 					(
 						// Conditions for the devo to be added to the filtered list
@@ -33,8 +40,8 @@ export class DevotionalFilterPipe implements PipeTransform {
 			);
 		}
 
-		if (devoCampus && devoCampus.length > 0) {
-			filteredArray = devotionals.filter(
+		if ( (devoCampus && devoCampus.length > 0) && devoCampus !== 'all') {
+			filteredArray = filteredArray.filter(
 				(devotional: Devotional) =>
 					(
 						// Conditions for the devo to be added to the filtered list
@@ -44,10 +51,22 @@ export class DevotionalFilterPipe implements PipeTransform {
 			);
 		}
 
+		if (includeVideo && devoCampus !== 'Hawaii') {
+			filteredArray = filteredArray.filter(
+				(devotional: Devotional) => ( devotional.video_URI !== null )
+			);
+		}
+
+		if (includeAudio && devoCampus !== 'Hawaii') {
+			filteredArray = filteredArray.filter(
+				(devotional: Devotional) => ( devotional.mP3_URI !== null )
+			);
+		}
+
 		if (filteredArray.length < 1) {
 			return emptyArray;
 		}
-		console.log(filteredArray.length);
+		console.log('Filtered Array Length: ' + filteredArray.length);
 		return filteredArray;
 	}
 }

@@ -1,10 +1,12 @@
 *---------------------------------*
 		Things to do
 *---------------------------------*
-- Add filter variables to url
 
 - Finish filters
 	- sort Jan > Dec || Dec > Jan
+	- Set correct year
+	- clear filters when button pressed
+	- set default campus
 
 
 
