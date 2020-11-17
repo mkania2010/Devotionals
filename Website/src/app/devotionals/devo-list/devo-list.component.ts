@@ -17,6 +17,7 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	@Output() selectedDevotionalEvent = new EventEmitter<Devotional>();
 	subscription: Subscription;
 	devotionals: Devotional[] = [];
+	loadingStatus = true;
 
 	constructor(private devotionalService: DevotionalService, private router: Router, private route: ActivatedRoute) {}
 
@@ -35,8 +36,13 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		this.subscription = this.devotionalService.devotionalListChangedEvent
 			.subscribe((devotionalList: Devotional[]) => {
 				this.devotionals = devotionalList;
+				this.loadingStatus = false;
 			}
 		);
+	}
+
+	loading(): void {
+		this.loadingStatus = !this.loadingStatus;
 	}
 
 	ngOnDestroy(): void { this.subscription.unsubscribe(); }

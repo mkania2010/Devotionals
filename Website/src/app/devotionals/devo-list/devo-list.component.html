@@ -16,6 +16,7 @@
 			<div class="panel-body">
 				<div id="devotionalList">
 					<app-devo-item *ngFor="let devotional of devotionals" [devotional]="devotional">Loading...</app-devo-item>
+					<div *ngIf="loadingStatus" class="loader">Loading...</div>
 				</div>
 			</div>
 		</div>
