@@ -23,9 +23,11 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	// Variables for filter
 	devoName: string = null;
 	devoSpeaker: string = null;
-	devoCampus: string = null;
+	devoCampus = 'all';
 	includeVideo = false;
 	includeAudio = false;
+	sortingMethod = 'newest';
+	devoYear: number;
 
 
 	constructor(private devotionalService: DevotionalService, private router: Router, private route: ActivatedRoute) {}
@@ -35,10 +37,11 @@ export class DevoListComponent implements OnInit, OnDestroy {
 
 		this.route.params.subscribe(
 			(params: Params) => {
+				this.devoYear = params.year;
 				// Gets devotionals from the year specified in route
 				// tslint:disable-next-line: triple-equals
-				if (params.year != 0)
-					this.devotionalService.getDevotionalsYear(params.year);
+				if (this.devoYear != 0)
+					this.devotionalService.getDevotionalsYear(this.devoYear);
 				else
 					this.devotionalService.getDevotionals();
 			}
@@ -77,21 +80,27 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		const sessionCampus = sessionStorage.getItem('devoCampus');
 		if (sessionCampus)
 			this.devoCampus = sessionCampus;
+
+		const sessionSort = sessionStorage.getItem('sortingMethod');
+		if (sessionSort)
+			this.sortingMethod = sessionSort;
 	}
 
-	changeYear(devoYear: number): void {
+	changeYear(): void {
 		if (this.devoName)
 			sessionStorage.setItem('devoName', this.devoName);
 		if (this.devoSpeaker)
 			sessionStorage.setItem('devoSpeaker', this.devoSpeaker);
-		if (this.devoCampus)
+		if (this.devoCampus !== 'all')
 			sessionStorage.setItem('devoCampus', this.devoCampus);
 		if (this.includeAudio)
 			sessionStorage.setItem('includeAudio', 'true');
 		if (this.includeVideo)
 			sessionStorage.setItem('includeVideo', 'true');
+		if (this.sortingMethod === 'oldest')
+			sessionStorage.setItem('sortingMethod', 'oldest');
 
-		this.router.navigate(['/', devoYear]);
+		this.router.navigate(['/', this.devoYear]);
 	}
 
 	clearFilters(): void {

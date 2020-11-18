@@ -12,7 +12,8 @@ export class DevotionalFilterPipe implements PipeTransform {
 		devoSpeaker: string,
 		devoCampus: string,
 		includeVideo: boolean,
-		includeAudio: boolean) {
+		includeAudio: boolean,
+		sortingMethod: string) {
 
 
 		let filteredArray: Devotional[] = devotionals;
@@ -62,6 +63,16 @@ export class DevotionalFilterPipe implements PipeTransform {
 				(devotional: Devotional) => ( devotional.mP3_URI !== null )
 			);
 		}
+
+
+		if (sortingMethod === 'newest')
+			// Sort Newest to oldest
+			filteredArray.sort((a, b) => (a.date < b.date) ? 1 : ((b.date < a.date) ? -1 : 0 ));
+		else
+			// Sort Oldest to newest
+			filteredArray.sort((a, b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0 ));
+
+		// Return statements
 
 		if (filteredArray.length < 1) {
 			return emptyArray;

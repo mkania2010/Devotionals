@@ -11,39 +11,9 @@
 			
 				<hr>
 
-				<!-- Form for the Campus selector -->
-				<form>
-					<input type="radio" id="all" name="campus" value="all" [(ngModel)]="devoCampus" checked>
-					<label for="all">All Campuses</label>	<br>
-					
-					<input type="radio" id="Provo" name="campus" value="Provo" [(ngModel)]="devoCampus">
-					<label for="Provo">Provo</label>	<br>
-
-					<input type="radio" id="Idaho" name="campus" value="Idaho" [(ngModel)]="devoCampus">
-					<label for="Idaho">Idaho</label>	<br>
-
-					<input type="radio" id="Hawaii" name="campus" value="Hawaii" [(ngModel)]="devoCampus">
-					<label for="Hawaii">Hawaii</label>
-				</form>
-
-				<hr>
-
-				<!-- Form for the Media type selector -->
-				<div class="input-group row" style="padding-left: 1.25em;">
-					<label>Type of Media Available</label>	<br>
-					
-					<input type="checkbox" id="audio" value="audio" [(ngModel)]="includeAudio"/>
-					<label for="audio" style="padding-left: 1em; padding-right: .25em; ">Audio</label>	<br>
-
-					<input type="checkbox" id="video" value="video" [(ngModel)]="includeVideo"/>
-					<label for="video" style="padding-left: 1em; padding-right: .25em; ">Video</label>	<br>
-				</div>
-
-				<hr>
-
-				<div class="row" style="padding-top: .5em;">
-					<label for="devoYear" style="padding-left: 1.25em;">Devotional Year</label>
-					<select id="devoYear" #devoYearInput (change)="changeYear(devoYearInput.value)">
+				<!-- For the devotional year -->
+				<div class="row" style="padding-left: 1.25em">
+					<select id="devoYear" #devoYearInput (change)="changeYear()" [(ngModel)]="devoYear">
 						<option value=0>All Years</option>
 						<option value="2020">2020</option>
 						<option value="2019">2019</option>
@@ -96,10 +66,73 @@
 						<option value="1972">1972</option>
 						<option value="1971">1971</option>
 						<option value="1970">1970</option>
-						<option value="1957">1969</option>
+						<option value="1969">1969</option>
+						<option value="1968">1968</option>
+						<option value="1967">1967</option>
+						<option value="1966">1966</option>
+						<option value="1965">1965</option>
+						<option value="1964">1964</option>
+						<option value="1963">1963</option>
+						<option value="1962">1962</option>
+						<option value="1961">1961</option>
+						<option value="1960">1960</option>
+						<option value="1959">1959</option>
+						<option value="1958">1958</option>
 						<option value="1957">1957</option>
+						<option value="1956">1956</option>
+						<option value="1955">1955</option>
+						<option value="1954">1954</option>
+						<option value="1953">1953</option>
+						<option value="1952">1952</option>
+						<option value="1951">1951</option>
+						<option value="1950">1950</option>
+						<option value="1949">1949</option>
+						<option value="1946">1946</option>
+						<option value="1892">1892</option>
 					</select>
+					<label for="devoYear" style="padding-left: 1em;">Devotional Year</label>
 				</div>
+
+				<hr>
+
+				<!-- Form for the Campus selector -->
+				<form>
+					<input type="radio" id="all" name="campus" value="all" [(ngModel)]="devoCampus" checked>
+					<label for="all">All Campuses</label>	<br>
+					
+					<input type="radio" id="Provo" name="campus" value="Provo" [(ngModel)]="devoCampus">
+					<label for="Provo">Provo</label>	<br>
+
+					<input type="radio" id="Idaho" name="campus" value="Idaho" [(ngModel)]="devoCampus">
+					<label for="Idaho">Idaho</label>	<br>
+
+					<input type="radio" id="Hawaii" name="campus" value="Hawaii" [(ngModel)]="devoCampus">
+					<label for="Hawaii">Hawaii</label>
+				</form>
+
+				<hr>
+
+				<!-- Form for the Media type selector -->
+				<div class="input-group row" style="padding-left: 1.25em;">
+					<label>Type of Media Available</label>	<br>
+					
+					<input type="checkbox" id="audio" value="audio" [(ngModel)]="includeAudio"/>
+					<label for="audio" style="padding-left: 1em; padding-right: .25em; ">Audio</label>	<br>
+
+					<input type="checkbox" id="video" value="video" [(ngModel)]="includeVideo"/>
+					<label for="video" style="padding-left: 1em; padding-right: .25em; ">Video</label>	<br>
+				</div>
+
+				<hr>
+
+				<!-- Form for the Campus selector -->
+				<form>
+					<input type="radio" id="newest" name="newest" value="newest" [(ngModel)]="sortingMethod" checked>
+					<label for="newest">Sort Newest to Oldest</label>	<br>
+					
+					<input type="radio" id="oldest" name="oldest" value="oldest" [(ngModel)]="sortingMethod">
+					<label for="oldest">Sort Oldest to Newest</label>	<br>
+				</form>
 
 				<hr>
 
@@ -116,7 +149,7 @@
 			<div class="panel-body">
 				<div id="devotionalList">
 					<p>Count: {{ devotionals.length }} </p>
-					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus:includeVideo:includeAudio" [devotional]="devotional">Loading...</app-devo-item>
+					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus:includeVideo:includeAudio:sortingMethod" [devotional]="devotional">Loading...</app-devo-item>
 					<div *ngIf="loadingStatus" class="loader">Loading...</div>
 				</div>
 			</div>
