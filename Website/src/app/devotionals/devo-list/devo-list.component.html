@@ -95,7 +95,7 @@
 
 				<hr>
 
-				<!-- Form for the Campus selector -->
+				<!-- For the Campus selector -->
 				<form>
 					<input type="radio" id="all" name="campus" value="all" [(ngModel)]="devoCampus" checked>
 					<label for="all">All Campuses</label>	<br>
@@ -112,7 +112,7 @@
 
 				<hr>
 
-				<!-- Form for the Media type selector -->
+				<!-- For the Media type selector -->
 				<div class="input-group row" style="padding-left: 1.25em;">
 					<label>Type of Media Available</label>	<br>
 					
@@ -125,7 +125,7 @@
 
 				<hr>
 
-				<!-- Form for the Campus selector -->
+				<!-- For the sorting selector -->
 				<form>
 					<input type="radio" id="newest" name="newest" value="newest" [(ngModel)]="sortingMethod" checked>
 					<label for="newest">Sort Newest to Oldest</label>	<br>
@@ -136,6 +136,7 @@
 
 				<hr>
 
+				<!-- Clear filters button -->
 				<button type="button" (click)="clearFilters()">Clear Filters</button>
 
 			</div>
@@ -148,13 +149,20 @@
 		<div class="panel panel-default" id="panel-list">
 			<div class="panel-body">
 				<div id="devotionalList">
+
+					<!-- Print the count of devotionals in the list -->
 					<p>Count: {{ devotionals.length }} </p>
-					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus:includeVideo:includeAudio:sortingMethod" [devotional]="devotional">Loading...</app-devo-item>
+
+					<!-- Div for the loader, onyl shows if loadingStatus is set to true in devo-list.ts -->
 					<div *ngIf="loadingStatus" class="loader">Loading...</div>
+
+					<!-- Send each devotional in the list through the filter, then to devo-item to create a list object on the screen -->
+					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus:includeVideo:includeAudio:sortingMethod" [devotional]="devotional">Loading...</app-devo-item>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
+<!-- Router outlet for the devo-detail -->
 <router-outlet></router-outlet>

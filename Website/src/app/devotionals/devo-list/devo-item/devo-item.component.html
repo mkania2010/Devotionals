@@ -1,11 +1,15 @@
 <a class="list-group-item clearfix" [routerLink]="[devotional?.id]" routerLinkActive="active" >
 	<div class="pull-left">
 		<h3 class="list-group-item-heading">{{ devotional?.devoName }}</h3>
-		<h5>{{ devotional?.author}} &nbsp;|&nbsp; {{ devotional?.date | slice: 0:10 | date:'shortDate' }} &nbsp;|&nbsp; {{ devotional?.campus }}
-		<!-- <a href="{{ devotional?.mP3_URI }}" download="devotional.mP3_URI" target="_blank" style="box-shadow: none;">
+		<h5>{{ devotional?.author}} &nbsp;|&nbsp; {{ devotional?.date | slice: 0:10 | date:'dd-MMM-yyyy' }} &nbsp;|&nbsp; {{ devotional?.campus }}
+		
+			<!--	Might try to add a download button for the MP$ file later
+			<a href="{{ devotional?.mP3_URI }}" download="devotional.mP3_URI" target="_blank" style="box-shadow: none;">
 			<button type="button" style="box-shadow:none;">Download Audio</button>
 			download audio
-		</a> -->
+			</a>
+		-->
+		
 		</h5>
 	</div>
 </a>

@@ -17,10 +17,10 @@ export class DevoDetailComponent implements OnInit {
 	constructor(private devotionalService: DevotionalService, private router: Router, private route: ActivatedRoute) { }
 
 	ngOnInit(): void {
+		// Subscribe to the parameters to get the devotional ID, and call the devo service to get the details
 		this.route.params.subscribe(
 			(params: Params) => {
-				this.id = params.id;
-				this.devotional = this.devotionalService.getDevotional(this.id);
+				this.devotional = this.devotionalService.getDevotional(params.id);
 			}
 		);
 

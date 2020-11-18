@@ -20,7 +20,7 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	devotionals: Devotional[] = [];
 	loadingStatus = true;
 
-	// Variables for filter
+	// Variables for filters
 	devoName: string = null;
 	devoSpeaker: string = null;
 	devoCampus = 'all';
@@ -35,10 +35,11 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	ngOnInit(): void {
 		this.loadSessionVariables();
 
+		// Subscribe to the route parameters in order to get the year
 		this.route.params.subscribe(
 			(params: Params) => {
 				this.devoYear = params.year;
-				// Gets devotionals from the year specified in route
+				// Gets devotionals from the year specified in route - 0 for all devotionals
 				// tslint:disable-next-line: triple-equals
 				if (this.devoYear != 0)
 					this.devotionalService.getDevotionalsYear(this.devoYear);
@@ -47,6 +48,7 @@ export class DevoListComponent implements OnInit, OnDestroy {
 			}
 		);
 
+		// Gets the list of devotionals passed by the service and removes the loading spinner
 		this.subscription = this.devotionalService.devotionalListChangedEvent
 			.subscribe((devotionalList: Devotional[]) => {
 				this.devotionals = devotionalList;
@@ -55,11 +57,13 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		);
 	}
 
+	// Clear the session and unsubscribe from devotional List changed event when closing tab
 	ngOnDestroy(): void {
 		this.subscription.unsubscribe();
 		sessionStorage.clear();
 	}
 
+	// Check if session variables are set and assign the values if they are
 	loadSessionVariables() {
 		const sessionAudio = sessionStorage.getItem('includeAudio');
 		if (sessionAudio)
@@ -87,6 +91,7 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	}
 
 	changeYear(): void {
+		// If any filters are not the defaults, set them in session storage
 		if (this.devoName)
 			sessionStorage.setItem('devoName', this.devoName);
 		if (this.devoSpeaker)
@@ -100,10 +105,21 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		if (this.sortingMethod === 'oldest')
 			sessionStorage.setItem('sortingMethod', 'oldest');
 
+		// Call the loading spinner again
+		this.loadingStatus = true;
+
+		// Finally, route to the year selected
 		this.router.navigate(['/', this.devoYear]);
 	}
 
 	clearFilters(): void {
+		// To reset the filters, clear session storage and set variables to default
 		sessionStorage.clear();
+		this.devoName = null;
+		this.devoSpeaker = null;
+		this.devoCampus = 'all';
+		this.includeVideo = false;
+		this.includeAudio = false;
+		this.sortingMethod = 'newest';
 	}
 }

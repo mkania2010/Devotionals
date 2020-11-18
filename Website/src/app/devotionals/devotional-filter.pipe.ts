@@ -7,6 +7,7 @@ import { Devotional } from './devotional.model';
 export class DevotionalFilterPipe implements PipeTransform {
 
 	transform(
+		// Parameters that the filter accepts
 		devotionals: Devotional[],
 		devoName: string,
 		devoSpeaker: string,
@@ -19,6 +20,7 @@ export class DevotionalFilterPipe implements PipeTransform {
 		let filteredArray: Devotional[] = devotionals;
 		const emptyArray: Devotional[] = [];
 
+		// Check if devoName is set and if it's length is more than 0
 		if (devoName && devoName.length > 0) {
 			filteredArray = filteredArray.filter(
 				(devotional: Devotional) =>
@@ -52,6 +54,7 @@ export class DevotionalFilterPipe implements PipeTransform {
 			);
 		}
 
+		// Hawaii doesn't have mp3 or video URLs so ingore those
 		if (includeVideo && devoCampus !== 'Hawaii') {
 			filteredArray = filteredArray.filter(
 				(devotional: Devotional) => ( devotional.video_URI !== null )
@@ -77,7 +80,10 @@ export class DevotionalFilterPipe implements PipeTransform {
 		if (filteredArray.length < 1) {
 			return emptyArray;
 		}
+
+		// Log the length of the filtered array for funsies
 		console.log('Filtered Array Length: ' + filteredArray.length);
+
 		return filteredArray;
 	}
 }
