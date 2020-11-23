@@ -1,10 +1,12 @@
-import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter, ChangeDetectorRef } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { Devotional } from '../devotional.model';
 import { DevotionalService } from '../devotional.service';
+// import { count } from 'console';
+import { FilterCountService } from '../filter-count.service';
 
 
 
@@ -16,25 +18,25 @@ import { DevotionalService } from '../devotional.service';
 export class DevoListComponent implements OnInit, OnDestroy {
 
 	@Output() selectedDevotionalEvent = new EventEmitter<Devotional>();
-	subscription: Subscription;
+	devoSubscription: Subscription;
+	filterSubscription: Subscription;
 	devotionals: Devotional[] = [];
 	loadingStatus = true;
+	filterCount: number = null;
+
 
 	// Variables for filters
 	devoName: string = null;
 	devoSpeaker: string = null;
+	speakerPosition: string = null;
 	devoCampus = 'all';
 	includeVideo = false;
 	includeAudio = false;
 	sortingMethod = 'newest';
 	devoYear: number;
 
-
-	constructor(private devotionalService: DevotionalService, private router: Router, private route: ActivatedRoute) {}
-
+	constructor(private devotionalService: DevotionalService, private router: Router, private route: ActivatedRoute, public filterService: FilterCountService) {}
 	ngOnInit(): void {
-		this.loadSessionVariables();
-
 		// Subscribe to the route parameters in order to get the year
 		this.route.params.subscribe(
 			(params: Params) => {
@@ -49,62 +51,32 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		);
 
 		// Gets the list of devotionals passed by the service and removes the loading spinner
-		this.subscription = this.devotionalService.devotionalListChangedEvent
+		this.devoSubscription = this.devotionalService.devotionalListChangedEvent
 			.subscribe((devotionalList: Devotional[]) => {
 				this.devotionals = devotionalList;
 				this.loadingStatus = false;
 			}
 		);
+
+		// Subscription to get the count of devotionals from the filter
+		this.filterSubscription = this.filterService.filterChangedEvent
+			.subscribe((inputCount: number) => {
+				setTimeout(() => {
+					this.filterCount = inputCount;
+				}, 0);
+			}
+		);
+
+
 	}
 
 	// Clear the session and unsubscribe from devotional List changed event when closing tab
 	ngOnDestroy(): void {
-		this.subscription.unsubscribe();
-		sessionStorage.clear();
-	}
-
-	// Check if session variables are set and assign the values if they are
-	loadSessionVariables() {
-		const sessionAudio = sessionStorage.getItem('includeAudio');
-		if (sessionAudio)
-			(sessionAudio === 'true') ? this.includeAudio = true : this.includeAudio = false;
-
-		const sessionVideo = sessionStorage.getItem('includeVideo');
-		if (sessionVideo)
-			(sessionVideo === 'true') ? this.includeVideo = true : this.includeVideo = false;
-
-		const sessionName = sessionStorage.getItem('devoName');
-		if (sessionName)
-			this.devoName = sessionName;
-
-		const sessionSpeaker = sessionStorage.getItem('devoSpeaker');
-		if (sessionSpeaker)
-			this.devoSpeaker = sessionSpeaker;
-
-		const sessionCampus = sessionStorage.getItem('devoCampus');
-		if (sessionCampus)
-			this.devoCampus = sessionCampus;
-
-		const sessionSort = sessionStorage.getItem('sortingMethod');
-		if (sessionSort)
-			this.sortingMethod = sessionSort;
+		this.devoSubscription.unsubscribe();
+		this.clearFilters();
 	}
 
 	changeYear(): void {
-		// If any filters are not the defaults, set them in session storage
-		if (this.devoName)
-			sessionStorage.setItem('devoName', this.devoName);
-		if (this.devoSpeaker)
-			sessionStorage.setItem('devoSpeaker', this.devoSpeaker);
-		if (this.devoCampus !== 'all')
-			sessionStorage.setItem('devoCampus', this.devoCampus);
-		if (this.includeAudio)
-			sessionStorage.setItem('includeAudio', 'true');
-		if (this.includeVideo)
-			sessionStorage.setItem('includeVideo', 'true');
-		if (this.sortingMethod === 'oldest')
-			sessionStorage.setItem('sortingMethod', 'oldest');
-
 		// Call the loading spinner again
 		this.loadingStatus = true;
 
@@ -113,13 +85,15 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	}
 
 	clearFilters(): void {
-		// To reset the filters, clear session storage and set variables to default
-		sessionStorage.clear();
+		// Assign variables to default
 		this.devoName = null;
 		this.devoSpeaker = null;
+		this.speakerPosition = null;
 		this.devoCampus = 'all';
 		this.includeVideo = false;
 		this.includeAudio = false;
 		this.sortingMethod = 'newest';
+
+		console.log('Filters cleared');
 	}
 }

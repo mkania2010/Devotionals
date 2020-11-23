@@ -1,16 +1,19 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Devotional } from './devotional.model';
+import { FilterCountService } from './filter-count.service';
 
 @Pipe({
 	name: 'devotionalFilter'
 })
 export class DevotionalFilterPipe implements PipeTransform {
+	constructor(public filterService: FilterCountService) {}
 
 	transform(
 		// Parameters that the filter accepts
 		devotionals: Devotional[],
 		devoName: string,
 		devoSpeaker: string,
+		speakerPosition: string,
 		devoCampus: string,
 		includeVideo: boolean,
 		includeAudio: boolean,
@@ -38,7 +41,19 @@ export class DevotionalFilterPipe implements PipeTransform {
 					(
 						// Conditions for the devo to be added to the filtered list
 						devotional.author != null &&
-						devotional.author.includes(devoSpeaker)
+						devotional.author.toLowerCase().includes(devoSpeaker.toLowerCase())
+					)
+			);
+		}
+
+		// Hawaii doesn't have speaker posistions
+		if ((speakerPosition && speakerPosition.length > 0) && devoCampus !== 'Hawaii') {
+			filteredArray = filteredArray.filter(
+				(devotional: Devotional) =>
+					(
+						// Conditions for the devo to be added to the filtered list
+						devotional.authorTitle != null &&
+						devotional.authorTitle.toLowerCase().includes(speakerPosition.toLowerCase())
 					)
 			);
 		}
@@ -78,11 +93,14 @@ export class DevotionalFilterPipe implements PipeTransform {
 		// Return statements
 
 		if (filteredArray.length < 1) {
+			console.log('Empty filtered array');
+			this.filterService.setCount(0);
 			return emptyArray;
 		}
 
 		// Log the length of the filtered array for funsies
 		console.log('Filtered Array Length: ' + filteredArray.length);
+		this.filterService.setCount(filteredArray.length);
 
 		return filteredArray;
 	}

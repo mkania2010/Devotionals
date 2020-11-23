@@ -1,13 +1,7 @@
 *---------------------------------*
 		Things to do
 *---------------------------------*
-
-- Finish filters
-	- clear filters when button pressed
-
-
-
-
+- add a help box
 
 *---------------------------------*
 		Documentation

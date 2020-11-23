@@ -20,7 +20,10 @@ export class DevoDetailComponent implements OnInit {
 		// Subscribe to the parameters to get the devotional ID, and call the devo service to get the details
 		this.route.params.subscribe(
 			(params: Params) => {
+				// Assign the ID to be used to subscribe to the devotional list event below
+				this.id = params.id;
 				this.devotional = this.devotionalService.getDevotional(params.id);
+
 			}
 		);
 
@@ -28,7 +31,7 @@ export class DevoDetailComponent implements OnInit {
 		// Only subscribe if the id is present in the route params
 		if (this.id != null ) {
 			this.subscription = this.devotionalService.devotionalListChangedEvent
-				.subscribe((devotionalList: Devotional[]) => {
+				.subscribe(() => {
 					this.devotional = this.devotionalService.getDevotional(this.id);
 				}
 			);

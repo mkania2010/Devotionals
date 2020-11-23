@@ -1,13 +1,18 @@
 <div class="col-md-8">
 	<!-- The filter menu -->
-	<div class="col-md-4">
+	<div class="col-md-4" style="padding-bottom: 1.5em">
 		<div class="panel panel-default" id="panel-search">
 			<div class="panel-body">
 				<!-- For the devo names -->
-				<div class="input-group row">  <input type="text" class="form-control search" placeholder="Search by Devotional Name" #devoNameInput [(ngModel)]="devoName"/>  </div>
+				<div class="input-group row searchRow">
+					<input type="text" class="form-control search" placeholder="Search by Devotional Name" #devoNameInput [(ngModel)]="devoName"/>
+				</div>
 
 				<!-- For the Speaker name -->
-				<div class="input-group row" style="padding-top: 1em;">  <input type="text" class="form-control search" placeholder="Search by Speaker Name" #speakerNameInput [(ngModel)]="devoSpeaker"/>  </div>
+				<div class="input-group row searchRow" style="padding-top: 1em;">  <input type="text" class="form-control search" placeholder="Search by Speaker Name" #speakerNameInput [(ngModel)]="devoSpeaker"/>  </div>
+
+				<!-- For the Speaker position -->
+				<div class="input-group row searchRow" style="padding-top: 1em;">  <input type="text" class="form-control search" placeholder="Search by Speaker's Title" #speakerTitleInput [(ngModel)]="speakerPosition"/>  </div>
 			
 				<hr>
 
@@ -96,24 +101,24 @@
 				<hr>
 
 				<!-- For the Campus selector -->
-				<form>
+				<form class="searchRow">
 					<input type="radio" id="all" name="campus" value="all" [(ngModel)]="devoCampus" checked>
-					<label for="all">All Campuses</label>	<br>
+					<label for="all"> All Campuses</label>	<br>
 					
 					<input type="radio" id="Provo" name="campus" value="Provo" [(ngModel)]="devoCampus">
-					<label for="Provo">Provo</label>	<br>
+					<label for="Provo"> Provo</label>	<br>
 
 					<input type="radio" id="Idaho" name="campus" value="Idaho" [(ngModel)]="devoCampus">
-					<label for="Idaho">Idaho</label>	<br>
+					<label for="Idaho"> Idaho</label>	<br>
 
 					<input type="radio" id="Hawaii" name="campus" value="Hawaii" [(ngModel)]="devoCampus">
-					<label for="Hawaii">Hawaii</label>
+					<label for="Hawaii"> Hawaii</label>
 				</form>
 
 				<hr>
 
 				<!-- For the Media type selector -->
-				<div class="input-group row" style="padding-left: 1.25em;">
+				<div class="input-group row searchRow" style="padding-left: 1.25em;">
 					<label>Type of Media Available</label>	<br>
 					
 					<input type="checkbox" id="audio" value="audio" [(ngModel)]="includeAudio"/>
@@ -126,7 +131,7 @@
 				<hr>
 
 				<!-- For the sorting selector -->
-				<form>
+				<form class="searchRow">
 					<input type="radio" id="newest" name="newest" value="newest" [(ngModel)]="sortingMethod" checked>
 					<label for="newest">Sort Newest to Oldest</label>	<br>
 					
@@ -151,13 +156,13 @@
 				<div id="devotionalList">
 
 					<!-- Print the count of devotionals in the list -->
-					<p>Count: {{ devotionals.length }} </p>
+					<p>List Count: {{ filterCount }} </p>
 
 					<!-- Div for the loader, onyl shows if loadingStatus is set to true in devo-list.ts -->
 					<div *ngIf="loadingStatus" class="loader">Loading...</div>
 
 					<!-- Send each devotional in the list through the filter, then to devo-item to create a list object on the screen -->
-					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:devoCampus:includeVideo:includeAudio:sortingMethod" [devotional]="devotional">Loading...</app-devo-item>
+					<app-devo-item *ngFor="let devotional of devotionals | devotionalFilter: devoName:devoSpeaker:speakerPosition:devoCampus:includeVideo:includeAudio:sortingMethod" [devotional]="devotional">Loading...</app-devo-item>
 				</div>
 			</div>
 		</div>
