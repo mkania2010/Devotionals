@@ -811,7 +811,7 @@
   },
   {
     "DevoName": "Experiment Upon the Word",
-    "Author": "Kevin R. Duncan  ",
+    "Author": "Kevin R. Duncan",
     "AuthorTitle": null,
     "Date": "2017-11-13T00:00:00",
     "Campus": "Hawaii",
@@ -1351,7 +1351,7 @@
   },
   {
     "DevoName": "Read His Mind, Do His Will",
-    "Author": "Elder Yoon Hwan Choi",
+    "Author": "Yoon Hwan Choi",
     "AuthorTitle": null,
     "Date": "2016-03-29T00:00:00",
     "Campus": "Hawaii",
@@ -7610,4 +7610,6 @@
     "Video_URI": null
   }
 ]
+
+
 
