@@ -606,8 +606,8 @@
     "Date": "2020-11-10T00:00:00",
     "Campus": "Idaho",
     "URI": "https://www.byui.edu/devotionals/brother-steven-j-lund",
-    "MP3_URI": null,
-    "Video_URI": null
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/DevoEldLund_10Nov2020_ENG.mp3",
+    "Video_URI": "https://video.byui.edu/media/1_qq72wze0"
   },
   {
     "DevoName": "Come Unto Zion",
@@ -616,7 +616,27 @@
     "Date": "2020-11-10T00:00:00",
     "Campus": "Idaho",
     "URI": "https://www.byui.edu/devotionals/sister-kalleen-lund",
-    "MP3_URI": null,
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/DevoSisLund_10Nov2020_ENG.mp3",
+    "Video_URI": "https://video.byui.edu/media/1_5f9iojiz"
+  },
+  {
+    "DevoName": "Carry On",
+    "Author": "Kristen Glenn",
+    "AuthorTitle": "English Faculty Member",
+    "Date": "2020-11-17T00:00:00",
+    "Campus": "Idaho",
+    "URI": "https://www.byui.edu/devotionals/kristen-glenn",
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/17_11_2020_Devo.mp3",
+    "Video_URI": "https://video.byui.edu/media/Kristen+Glenn+-+%22Carry+On%22/1_qesowsnf/147052562"
+  },
+  {
+    "DevoName": "Becoming",
+    "Author": "Randy Beard",
+    "AuthorTitle": "IT Platform Services Manager",
+    "Date": "2020-11-24T00:00:00",
+    "Campus": "Idaho",
+    "URI": null,
+    "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/24_11_2020_Devo.mp3",
     "Video_URI": null
   },
   {
@@ -3965,9 +3985,9 @@
     "AuthorTitle": "President, BYU Idaho",
     "Date": "2015-09-15T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/Inauguration/2015_09_15_Gilbert.htm",
+    "URI": "https://www.byui.edu/devotionals/President-Clark-G-Gilbert-2015",
     "MP3_URI": "https://byui-media.ldscdn.org/byui_ft/devo_audio/InaugurationClarkGGilbert_15Sep2015_Gilbert.mp3",
-    "Video_URI": "https://video.byui.edu/media/Clark+G.+Gilbert+Inauguration/0_3v8ilpz3"
+    "Video_URI": "https://www.byui.edu/devotionals/President-Clark-G-Gilbert-2015"
   },
   {
     "DevoName": "Moving Forward and Upward",
@@ -6345,7 +6365,7 @@
     "AuthorTitle": "President of BYU-Idaho",
     "Date": "2011-09-06T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/MiscellaneousAddresses/2011_09_06_Clark.htm",
+    "URI": "https://www.byui.edu/devotionals/President-Kim-B-Clark-fall-2011",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -6405,7 +6425,7 @@
     "AuthorTitle": "President, BYU-Idaho",
     "Date": "2011-10-06T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/MiscellaneousAddresses/2011_10_06_Clark.htm",
+    "URI": "https://www.byui.edu/speeches/President-Kim-B-Clark-oct-2011",
     "MP3_URI": null,
     "Video_URI": null
   },
@@ -7135,7 +7155,7 @@
     "AuthorTitle": "First Counselor, First Presidency",
     "Date": "2010-12-17T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/MiscellaneousAddresses/2010_12_17_Eyring.htm",
+    "URI": "https://www.byui.edu/devotionals/President-Henry-B-Eyring-2010",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/misc/2010_12_17_Dedication_Eyring.mp3",
     "Video_URI": "http://www.byui.edu/devotionalplayer/BYUIplayer.html?StartCue=0&EndCue=1545&VideoName=2010-12-17-DV-eyring_Devo&VideoType=devotionals"
   },
@@ -8215,7 +8235,7 @@
     "AuthorTitle": "BYU Geology Department Faculty",
     "Date": "2008-09-18T00:00:00",
     "Campus": "Idaho",
-    "URI": "http://www.byui.edu/Presentations/Transcripts/MajorForums/2008_09_18_Kowallis.htm",
+    "URI": "https://www.byui.edu/devotionals/Bart-J-Kowallis-2008",
     "MP3_URI": "http://streaming.byui.edu/presentations/mp3/Forums/2008_09_18_AFR_Kowallis.mp3",
     "Video_URI": null
   },
@@ -9610,7 +9630,7 @@
     "Video_URI": "http://www.byui.edu/devotionals/Brother-Mark-H-Willes"
   },
   {
-    "DevoName": "Power to Become Sons and Daughters of God",
+    "DevoName": "Power to Become Sons and Daughters of God ",
     "Author": "Kevin Brower",
     "AuthorTitle": "BYU-Idaho Music Department Faculty",
     "Date": "2005-03-29T00:00:00",
@@ -10231,7 +10251,7 @@
   },
   {
     "DevoName": "True Blue, Through and Through",
-    "Author": "Sheri L. Dew",
+    "Author": "Sister Sheri L. Dew",
     "AuthorTitle": "Former General Relief Society Presidency",
     "Date": "2004-03-16T00:00:00",
     "Campus": "Idaho",
@@ -10600,7 +10620,7 @@
     "Video_URI": "https://www.byui.edu/devotionals/brother-truman-g-madsen-2004"
   },
   {
-    "DevoName": "The Choice",
+    "DevoName": "The Choice ",
     "Author": "Susan Easton Black",
     "AuthorTitle": "Professor of Church History and Doctrine at BYU",
     "Date": "2004-11-02T00:00:00",
@@ -19710,7 +19730,7 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Choose a More Excellent Way",
+    "DevoName": "Choose a More Excellent Way ",
     "Author": "Charles M. Grant",
     "AuthorTitle": "Head Football Coach at Ricks College",
     "Date": "1984-09-25T00:00:00",
@@ -19720,7 +19740,7 @@
     "Video_URI": null
   },
   {
-    "DevoName": "Choose a More Excellent Way",
+    "DevoName": "Choose a More Excellent Way ",
     "Author": "G. Grant",
     "AuthorTitle": null,
     "Date": "1984-09-25T00:00:00",
@@ -23570,6 +23590,4 @@
     "Video_URI": null
   }
 ]
-
-
 
