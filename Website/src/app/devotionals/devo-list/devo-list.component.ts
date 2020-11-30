@@ -23,6 +23,8 @@ export class DevoListComponent implements OnInit, OnDestroy {
 	devotionals: Devotional[] = [];
 	loadingStatus = true;
 	filterCount: number = null;
+	infoHeight = 3;
+	infoOverflow = 'hidden';
 
 
 	// Variables for filters
@@ -95,5 +97,19 @@ export class DevoListComponent implements OnInit, OnDestroy {
 		this.sortingMethod = 'newest';
 
 		console.log('Filters cleared');
+	}
+
+	// Called from the help panel, expands the height of the panel
+	expandInfo(): void {
+		const baseHeight = 3;
+		const expandedHeight = 26;
+
+		if (this.infoHeight === baseHeight) {
+			this.infoHeight = expandedHeight;
+			this.infoOverflow = 'scroll';
+		} else {
+			this.infoHeight = baseHeight;
+			this.infoOverflow = 'hidden';
+		}
 	}
 }

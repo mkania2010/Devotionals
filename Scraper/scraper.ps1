@@ -262,13 +262,13 @@ function Provo_Scraper {
 
 # Call functions
 Write-Host "Starting Provo - $(Get-Date)"
-# Provo_Scraper
+Provo_Scraper
 
 Write-Host "Starting Idaho - $(Get-Date)"
-# Idaho_Scraper
+Idaho_Scraper
 
 Write-Host "Starting Hawaii - $(Get-Date)"
-# Hawaii_Scraper
+Hawaii_Scraper
 
 $count = 1
 
@@ -312,9 +312,9 @@ Get-ChildItem $jsonBase | ForEach-Object {
 }
 
 
-# git stage $jsonBase
-# git commit -m "Updated JSON - $(Get-Date)"
-# git push
+git stage $jsonBase
+git commit -m "Updated JSON - $(Get-Date) Eeastern"
+git push
 
 
 Write-Host "Finished Devotional Scraper"

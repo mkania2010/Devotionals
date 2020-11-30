@@ -146,6 +146,18 @@
 
 			</div>
 		</div>
+
+		<!-- Help panel -->
+		<div class="panel panel-default" id="panel-search" [style.height.em]="infoHeight" [style.overflow-y]="infoOverflow" (click)="expandInfo()">
+			<div class="panel-body" style="padding-top: 3px;">
+				<a style="color: black;">More Information &#10148;</a>
+				<hr>
+				<p> The search boxes are case insensitive and will search for the entered text anywhere inside the corresponding string. </p> <hr>
+				<p> Any year from the dropdown can be selected, and the list will update itself after a couple seconds. If selecting all years, the list may take several seconds to update. Seaching the list may also become slow.</p> <hr>
+				<p> Created as a project by Michael Kania - <a href="https://github.com/mkania2010/Devotionals">Github</a></p>
+			</div>
+		</div>
+
 	</div>
 
 
@@ -156,7 +168,7 @@
 				<div id="devotionalList">
 
 					<!-- Print the count of devotionals in the list -->
-					<p>List Count: {{ filterCount }} </p>
+					<p style="text-align: center; color: grey;">List Count: {{ filterCount }} </p>
 
 					<!-- Div for the loader, onyl shows if loadingStatus is set to true in devo-list.ts -->
 					<div *ngIf="loadingStatus" class="loader">Loading...</div>
